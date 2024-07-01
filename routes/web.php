@@ -103,14 +103,6 @@ Route::middleware(['auth'])->group(function () {
 
 
 
-
-
-    //settings
-    Route::get('/view-settings', [SettingsController::class, 'viewsettings'])->name('admin.viewsettings');
-    Route::post('/update-settings', [SettingsController::class, 'updatesettings'])->name('admin.updatesettings');
-
-
-
     //mail from user
     Route::post('/view-mails', [ContactUsController::class, 'contactmail'])->name('front.contactmail');
     Route::get('/view-contactform', [ContactUsController::class, 'viewcontactform'])->name('front.viewcontactform');
