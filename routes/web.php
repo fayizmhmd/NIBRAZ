@@ -73,15 +73,6 @@ Route::middleware(['auth'])->group(function () {
     });
 
 
-    //Programs
-    Route::get('/view-programs', [ProgramController::class, 'viewPrograms'])->name('admin.viewPrograms');
-    Route::get('/add-programs', [ProgramController::class, 'addPrograms'])->name('admin.addPrograms');
-    Route::post('/save-programs', [ProgramController::class, 'savePrograms'])->name('admin.savePrograms');
-    Route::get('/toggle-programs/{id}', [ProgramController::class, 'toggleProgram'])->name('admin.toggleProgram');
-    Route::get('/edit-programs/{id}', [ProgramController::class, 'editPrograms'])->name('admin.editPrograms');
-    Route::post('/update-programs-info/{id}', [ProgramController::class, 'updatePrograms'])->name('admin.updatePrograms');
-    Route::get('/delete-programs/{id}', [ProgramController::class, 'deletePrograms'])->name('admin.deletePrograms');
-
     //Projects
     Route::get('/view-projects', [ProjectController::class, 'viewProjects'])->name('admin.viewProjects');
     Route::get('/add-projects', [ProjectController::class, 'addProjects'])->name('admin.addProjects');
@@ -90,6 +81,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/edit-projects/{id}', [ProjectController::class, 'editProjects'])->name('admin.editProjects');
     Route::post('/update-projects-info/{id}', [ProjectController::class, 'updateProjects'])->name('admin.updateProjects');
     Route::get('/delete-projects/{id}', [ProjectController::class, 'deleteProjects'])->name('admin.deleteProjects');
+
+    //Gallery
+    Route::get('/view-projects', [ProjectController::class, 'viewProjects'])->name('admin.viewProjects');
 
 
 
@@ -149,7 +143,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/get-all-plans-datatable', [DatatableController::class, 'getAllPlans'])->name('admin.getAllPlans');
     Route::get('/get-all-categories-datatable', [DatatableController::class, 'getAllCategories'])->name('admin.getAllCategories');
     Route::get('/get-all-reviews-datatable', [DatatableController::class, 'getAllReviews'])->name('admin.getAllReviews');
-    Route::get('/get-all-programs-datatable', [DatatableController::class, 'getAllprograms'])->name('admin.getAllprograms');
     Route::get('/get-all-projects-datatable', [DatatableController::class, 'getAllprojects'])->name('admin.getAllprojects');
 
 

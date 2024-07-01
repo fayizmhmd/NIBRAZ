@@ -16,8 +16,9 @@
             <label class=" col-lg-3 required form-label">Image</label>
             <div class="col-lg-9">
                 <input type="file" class="form-control" placeholder="Browse image" name='image' required />
-        <img src="{{ asset('storage/images/' . $review->image) }}" width="100" alt="image">
-
+                <div class="col-lg-9 mt-2">
+                    <img src="{{ asset('/' . $review->image) }}" width="100" alt="image">
+                </div>
             </div>
         </div>
         <div class='form-group row mb-4 align-middle'>
