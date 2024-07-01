@@ -59,11 +59,11 @@
 
                         @can('all_users')
                             <li class="nk-menu-item ">
-                                <a href="{{ route('admin.viewPrograms') }}" class="nk-menu-link">
+                                <a href="{{ route('admin.viewProjects') }}" class="nk-menu-link">
                                     <span class="nk-menu-icon">
                                         <em class="icon ni ni-list"></em>
                                     </span>
-                                    <span class="nk-menu-text">Program Management</span>
+                                    <span class="nk-menu-text">Project Management</span>
                                 </a>
                             </li>
                         @endcan
@@ -74,7 +74,7 @@
                                     <span class="nk-menu-icon">
                                         <em class="icon ni ni-list"></em>
                                     </span>
-                                    <span class="nk-menu-text">Project Management</span>
+                                    <span class="nk-menu-text">Gallery</span>
                                 </a>
                             </li>
                         @endcan
