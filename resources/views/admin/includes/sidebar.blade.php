@@ -72,7 +72,7 @@
                             <li class="nk-menu-item ">
                                 <a href="{{ route('admin.viewProjects') }}" class="nk-menu-link">
                                     <span class="nk-menu-icon">
-                                        <em class="icon ni ni-list"></em>
+                                        <em class="fas fa-image"></em>
                                     </span>
                                     <span class="nk-menu-text">Gallery</span>
                                 </a>
