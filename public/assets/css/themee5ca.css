@@ -1,0 +1,41 @@
+/*!
+ * Theme Name: Default
+ * Package : DashLite
+ * Author: Softnio
+ * Author URI: http://themeforest.net/user/softnio
+ * Version	 :	1.0.0
+ * Updated	 :	07.23.2020
+**/
+
+.colour-pink {
+    color: #C82F80 !important;
+}
+.colour-yellow {
+    color: #F5B63E !important;
+}
+
+.colour-gradient {
+    background: linear-gradient(to left, #C82F80, #F5B63E) !important;
+}
+.btn.colour-gradient {
+    background: linear-gradient(to left, #C82F80, #F5B63E) !important;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+.btn.colour-gradient:hover {
+    background: linear-gradient(to left, rgb(114 21 70 / 90%), rgb(126 92 27 / 90%)) !important;
+}
+.is-light .active>.nk-menu-link, .is-light .nk-menu-link:hover {
+    color: #D2538C;
+}
+.nk-menu-item.active>.nk-menu-link .nk-menu-icon, .nk-menu-item.current-menu>.nk-menu-link .nk-menu-icon, .nk-menu-link:hover .nk-menu-icon {
+    color: #D2538C;
+}
+/* .nk-sidebar+.nk-wrap, .nk-sidebar-overlay+.nk-wrap {
+    padding-left: 290px;
+    background: #FEF7EA;
+} */
+/* .tab-content>.tab-pane {
+    width: 60%;
+} */
