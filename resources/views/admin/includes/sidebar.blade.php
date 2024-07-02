@@ -70,7 +70,7 @@
 
                         @can('all_users')
                             <li class="nk-menu-item ">
-                                <a href="{{ route('admin.viewProjects') }}" class="nk-menu-link">
+                                <a href="{{ route('admin.viewGallery') }}" class="nk-menu-link">
                                     <span class="nk-menu-icon">
                                         <em class="fas fa-image"></em>
                                     </span>

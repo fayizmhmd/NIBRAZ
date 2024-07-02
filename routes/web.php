@@ -86,6 +86,13 @@ Route::middleware(['auth'])->group(function () {
 
     //Gallery
     Route::get('/view-gallery', [GalleryController::class, 'viewGallery'])->name('admin.viewGallery');
+    Route::get('/add-gallery', [GalleryController::class, 'addGallery'])->name('admin.addGallery');
+    Route::post('/save-gallery', [GalleryController::class, 'saveGallery'])->name('admin.saveGallery');
+    Route::get('/edit-gallery/{id}', [GalleryController::class, 'editGallery'])->name('admin.editGallery');
+    Route::post('/update-gallery/{id}', [GalleryController::class, 'updateGallery'])->name('admin.updateGallery');
+    Route::get('/delete-gallery/{id}', [GalleryController::class, 'deleteGallery'])->name('admin.deleteGallery');
+    Route::get('/toggle-gallery/{id}', [GalleryController::class, 'toggleGallery'])->name('admin.toggleGallery');
+
 
 
 
@@ -139,7 +146,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/get-all-categories-datatable', [DatatableController::class, 'getAllCategories'])->name('admin.getAllCategories');
     Route::get('/get-all-reviews-datatable', [DatatableController::class, 'getAllReviews'])->name('admin.getAllReviews');
     Route::get('/get-all-projects-datatable', [DatatableController::class, 'getAllprojects'])->name('admin.getAllprojects');
-
+    Route::get('/get-all-gallaries-datatable', [DatatableController::class, 'getGalleries'])->name('admin.getGalleries');
 
 
     Route::get('/get-all-subscription-datatable', [DatatableController::class, 'getAllSubscriptions'])->name('admin.getAllSubscriptions');
