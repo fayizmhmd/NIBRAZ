@@ -7,6 +7,7 @@ use App\Models\College;
 use App\Models\CollegeReview;
 use App\Models\Course;
 use App\Models\FAQ;
+use App\Models\Gallery;
 use App\Models\Location;
 use App\Models\Plan;
 use App\Models\Program;
@@ -125,7 +126,8 @@ class DatatableController extends Controller
             })
             ->addColumn('image', function ($project) {
                 if ($project->image) {
-                    return '<img src="' . asset(json_decode($project->image, true)[0]) . '" alt="project Image" width="180" height="60">';
+                    $image = ($project->image != "[]") ?  json_decode($project->image, true)[0] : "--";
+                    return '<img src="' . asset($image) . '" alt="project Image" width="180" height="60">';
                 } else {
                     return "-no image-";
                 }
@@ -178,6 +180,100 @@ class DatatableController extends Controller
             ->rawColumns(['id', 'name', 'seo', 'description', 'image', 'slug', 'status', 'action'])
             ->make(true);
     }
+
+
+
+
+    public function getGalleries()
+    {
+
+        $galleries = Gallery::get();
+        return DataTables::of($galleries)
+            ->addColumn('id', function ($gallery) {
+                return $gallery->id;
+            })
+            ->addColumn('name', function ($gallery) {
+                if (isset($gallery->name))
+                    return $gallery->name;
+                else
+                    return 'Name Not Given';
+            })
+            
+            ->addColumn('description', function ($gallery) {
+                if (isset($gallery->description))
+                    return $gallery->description;
+                else
+                    return 'description Not Given';
+            })
+            ->addColumn('image', function ($gallery) {
+                if ($gallery->image) {
+                    return '<img src="' . asset(json_decode($gallery->image, true)[0]) . '" alt="gallery Image" width="180" height="60">';
+                } else {
+                    return "-no image-";
+                }
+            })
+            ->addColumn('status', function ($gallery) {
+
+                $success = '<a class="btn btn-icon btn-success"
+                href="' . route('admin.toggleGallery', $gallery->id) . '">
+                <em class="icon ni ni-power"></em>
+                </a>';
+                $danger = ' <a class="btn btn-icon btn-danger"
+                href="' . route('admin.toggleGallery', $gallery->id) . '">
+                <em class="icon ni ni-power"></em>
+                </a>';
+                if ($gallery->is_active == 1)
+                    return $success;
+                else
+                    return $danger;
+            })
+            ->addColumn('action', function ($gallery) {
+
+                $html = '<ul class="nk-tb-actions gx-1">
+                <li>
+                   <div class="drodown"><a href="#"
+                       class="dropdown-toggle btn btn-icon btn-trigger"
+                       data-bs-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                    <div class="dropdown-menu dropdown-menu-end">
+                       <ul class="link-list-opt no-bdr">
+                           <li>
+                               <a href="' . route('admin.editGallery', $gallery->id) . '">
+                                   <em class="icon ni ni-edit"></em>
+                                   <span>Edit gallery</span>
+                               </a>
+                           </li>
+                           <li>
+                               <a data-bs-toggle="modal"
+                                   data-bs-target="#deletegallery' . $gallery->id . '">
+                                   <em class="icon ni ni-trash"></em>
+                                   <span>Delete gallery</span></span>
+                               </a>
+                           </li>
+                           </ui>
+                           </div>
+                           </div>
+                           </li>
+                           </ui>';
+
+                return $html;
+            })
+            ->rawColumns(['id', 'name', 'description', 'image', 'status', 'action'])
+            ->make(true);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public function getAllReviews()
     {

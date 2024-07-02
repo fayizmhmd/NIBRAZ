@@ -103,7 +103,7 @@ class ProjectController extends Controller
         if ($project) {
             $project->toggleActive();
             $project->save();
-            return redirect()->back()->with(['success' => 'Status Changed Successfully']);
+            return redirect()->back()->with(['message' => 'Status Changed Successfully']);
         } else {
             return redirect()->back()->with(['error' => 'Something Went Wrong']);
         }
