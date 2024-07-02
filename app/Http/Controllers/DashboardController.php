@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 //use App\Models\Permission;
 
-use App\Models\Program;
+
 use Spatie\Permission\Models\Permission;
 use App\Models\Subscription;
 use App\Models\User;
@@ -17,11 +17,11 @@ class DashboardController extends Controller
     {
         $totalUsers = User::all();
         $totalSubscriptions = Subscription::all();
-        $totalPrograms = Program::all();
+
         return view('admin.dashboard.dashboard', [
             'totalUsers' => count($totalUsers),
             'totalSubscriptions' => count($totalSubscriptions),
-            'totalPrograms' => count($totalPrograms),
+
         ]);
     }
 
