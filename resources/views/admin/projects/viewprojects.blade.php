@@ -1,6 +1,6 @@
 @extends('admin.layout.master')
 @section('title')
-    Programs
+    Projects
 @endsection
 @section('content')
 @if (session('message'))

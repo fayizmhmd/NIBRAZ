@@ -112,6 +112,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/toggle-reviews/{id}', [ReviewController::class, 'toggleReview'])->name('admin.toggleReview');
 
 
+    //contact us
+    Route::get('/view-contact-us', [ContactUsController::class, 'viewcontact'])->name('admin.viewcontact');
+
 
     //mail from user
     Route::post('/view-mails', [ContactUsController::class, 'contactmail'])->name('front.contactmail');
@@ -149,6 +152,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/get-all-gallaries-datatable', [DatatableController::class, 'getGalleries'])->name('admin.getGalleries');
 
 
+
     Route::get('/get-all-subscription-datatable', [DatatableController::class, 'getAllSubscriptions'])->name('admin.getAllSubscriptions');
     Route::get('/get-report-subscription-datatable', [DatatableController::class, 'getReportSubscription'])->name('admin.getReportSubscription');
 });
+
+
+Route::get('/get-all-contactus-list-datatable', [DatatableController::class, 'getContactus'])->name('admin.getContactus');

@@ -9,6 +9,7 @@ use App\Models\Course;
 use App\Models\FAQ;
 use App\Models\Gallery;
 use App\Models\Location;
+use App\Models\MailList;
 use App\Models\Plan;
 use App\Models\Program;
 use App\Models\Project;
@@ -198,7 +199,7 @@ class DatatableController extends Controller
                 else
                     return 'Name Not Given';
             })
-            
+
             ->addColumn('description', function ($gallery) {
                 if (isset($gallery->description))
                     return $gallery->description;
@@ -263,13 +264,45 @@ class DatatableController extends Controller
 
 
 
+    public function getContactus()
+    {
 
+        $mail_lists = MailList::get();
+        return DataTables::of($mail_lists)
+            ->addColumn('id', function ($mail_list) {
+                return $mail_list->id;
+            })
+            ->addColumn('name', function ($mail_list) {
+                if (isset($mail_list->name))
+                    return $mail_list->name;
+                else
+                    return 'Name Not Given';
+            })
 
+            ->addColumn('email', function ($mail_list) {
+                if (isset($mail_list->email))
+                    return $mail_list->email;
+                else
+                    return 'Email Not Given';
+            })
 
+            ->addColumn('phone', function ($mail_list) {
+                if (isset($mail_list->phone))
+                    return $mail_list->phone;
+                else
+                    return 'phone Not Given';
+            })
 
+            ->addColumn('message', function ($mail_list) {
+                if (isset($mail_list->message))
+                    return $mail_list->message;
+                else
+                    return 'message Not Given';
+            })
 
-
-
+            ->rawColumns(['id', 'name', 'email', 'phone', 'message'])
+            ->make(true);
+    }
 
 
 

@@ -2,12 +2,8 @@
     <div class="nk-sidebar-element nk-sidebar-head">
         {{-- <div class="nk-sidebar-brand">Safa Group of Companies</div> --}}
         <div class="flex-grow-1 nk-sidebar-brand d-flex align-items-center" >
-            <img class="mx-1" src="{{ asset('finnishimages/finnish-logo.jpg') }}" style=" width: 220px; "
+            <img class="mx-1" src="{{ asset('NibrazImages/nibraz-heading.jpg') }}" style=" width: 220px; "
                 alt="logo" />
-                {{-- <span style="font-weight: bold; font-size: 20px;">
-                    <span style="color: red;">COLLEGES</span>
-                    <span style="color: black;">BANGALORE</span>
-                </span> --}}
         </div>
         <div class="nk-menu-trigger me-n2">
             <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu">
@@ -86,6 +82,17 @@
                                         <em class="icon ni ni-text"></em>
                                     </span>
                                     <span class="nk-menu-text">Testimonials</span>
+                                </a>
+                            </li>
+                        @endcan
+
+                        @can('all_users')
+                            <li class="nk-menu-item ">
+                                <a href="{{ route('admin.viewcontact') }}" class="nk-menu-link">
+                                    <span class="nk-menu-icon">
+                                        <em class="icon ni ni-mail"></em>
+                                    </span>
+                                    <span class="nk-menu-text">Contact mail</span>
                                 </a>
                             </li>
                         @endcan
