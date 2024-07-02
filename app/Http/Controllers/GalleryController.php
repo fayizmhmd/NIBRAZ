@@ -10,4 +10,5 @@ class GalleryController extends Controller
     public function viewGallery(){
         return view('admin.gallery.viewgallery');
     }
+    
 }
