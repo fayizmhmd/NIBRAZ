@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use App\Http\Controllers\AppController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -25,8 +26,16 @@ Route::post('/verify-otp', [AppController::class, 'verifyOtp']);
 Route::post('/register', [AppController::class, 'register']);
 
 
+Route::post('/all-testimonials', [ApiController::class, 'allTestimonials']);
+
+Route::post('/all-projects', [ApiController::class, 'allProjects']);
+
+
+
 Route::group(['middleware' => ['jwt.auth']], function () {
     Route::post('/save-device-token', [AppController::class, 'saveDeviceToken']);
 
 
 });
+
+
