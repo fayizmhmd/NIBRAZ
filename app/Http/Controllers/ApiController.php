@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\Gallery;
 use App\Models\Project;
 use App\Models\Review;
 use Illuminate\Http\Request;
@@ -33,6 +34,22 @@ class ApiController extends Controller
             $response = [
                 'success' => true,
                 'data' => $projects
+            ];
+        }else{
+            $response = [
+                'success' => false
+            ];
+        }
+        return response()->json($response);
+    }
+
+
+    public function allGalleries(){
+        $galleries = Gallery::all();
+        if(count($galleries) > 0){
+            $response = [
+                'success' => true,
+                'data' => $galleries
             ];
         }else{
             $response = [

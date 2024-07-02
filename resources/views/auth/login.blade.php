@@ -27,7 +27,7 @@
                         {{-- <div class="brand-logo pb-4 text-center h1 fw-bold">Safa Group</div> --}}
 
                         <div class="brand-logo text-center fw-bold">
-                            <img class="mx-1" src="{{ asset('finnishimages/finnish-logo.jpg') }}"
+                            <img class="mx-1" src="{{ asset('NibrazImages/nibraz-heading.jpg') }}"
                                 style="width:75%;object-fit:cover" alt="logo" />
                         </div>
                         <div class="card">
@@ -71,7 +71,7 @@
                     <div class="nk-footer nk-auth-footer-full">
                         <div class="container-fluid">
                             <div class="nk-footer-wrap">
-                                <div class="nk-footer-copyright"> © 2024 FINNISHGLOBALSCHOOL. Powered By <a
+                                <div class="nk-footer-copyright"> © 2024 NIBRAZBUILDERSLLP. Powered By <a
                                         href="https://howincloud.com" target="_blank"
                                         class="text-dark text-hover-dark me-2" style="  font-weight: 700">Howin<span
                                             style="color: red;  font-weight: 700">Cloud</span></a>

@@ -30,6 +30,9 @@ Route::post('/all-testimonials', [ApiController::class, 'allTestimonials']);
 
 Route::post('/all-projects', [ApiController::class, 'allProjects']);
 
+Route::post('/all-galleries', [ApiController::class, 'allGalleries']);
+
+
 
 
 Route::group(['middleware' => ['jwt.auth']], function () {
