@@ -14,7 +14,7 @@ use App\Http\Controllers\ReportController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\GalleryController;
-
+use App\Http\Controllers\LogoController;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -94,6 +94,13 @@ Route::middleware(['auth'])->group(function () {
 
 
 
+    Route::get('/logo', [LogoController::class,   'ViewLogo'])->name('admin.viewlogo');
+    Route::get('/add-logo', [LogoController::class, 'addLogo'])->name('admin.addlogo');
+    Route::get('/edit-logo/{id}', [LogoController::class, 'editLogo'])->name('admin.editlogo');
+    Route::post('/save-logo', [LogoController::class, 'saveLogo'])->name('admin.savelogo');
+
+
+
 
 
     //settings
@@ -111,7 +118,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/toggle-reviews/{id}', [ReviewController::class, 'toggleReview'])->name('admin.toggleReview');
 
 
-    
+
 
     //contact us
     Route::get('/view-contact-us', [ContactUsController::class, 'viewcontact'])->name('admin.viewcontact');
