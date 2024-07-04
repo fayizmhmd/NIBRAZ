@@ -9,10 +9,5 @@ use Illuminate\Http\Request;
 
 class AboutUsController extends Controller
 {
-    public function AboutUs()
-    {
-        $reviews = Review::all();
 
-        return view('frontend.aboutus',compact('reviews'));
-    }
 }
