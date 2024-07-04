@@ -1,14 +1,10 @@
 @extends('frontend.layouts.master')
 @section('content')
-
-@endsection
-
-
 <!-- CONTENT START -->
 <div class="page-content">
 
     <!-- INNER PAGE BANNER -->
-    <div class="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style="background-image:url(../images/banner/3.jpg);">
+    <div class="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style="background-image:url({{ asset('assets/frontend/images/banner/3.jpg') }});">
         <div class="overlay-main bg-black opacity-07"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
@@ -36,31 +32,31 @@
                                 <!-- COLUMNS 1 -->
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="../images/gallery/portrait/pic2.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic2.jpg') }}" alt=""></a>
                                     </div>
                                 </div>
                                 <!-- COLUMNS 2 -->
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="../images/gallery/portrait/pic3.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic3.jpg') }}" alt=""></a>
                                     </div>
                                 </div>
                                 <!-- COLUMNS 3 -->
                                 <div class="item">
                                     <div class="owl-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="../images/gallery/portrait/pic4.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic4.jpg') }}" alt=""></a>
                                     </div>
                                 </div>
                                 <!-- COLUMNS 4 -->
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="../images/gallery/portrait/pic5.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic5.jpg') }}" alt=""></a>
                                     </div>
                                 </div>
                                 <!-- COLUMNS 5 -->
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="../images/gallery/portrait/pic6.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic6.jpg') }}" alt=""></a>
                                     </div>
                                 </div>
                            </div>
@@ -102,7 +98,7 @@
                             <!-- TITLE END -->
                             <div class="wt-team-six large-pic">
                                 <div class="wt-team-media wt-thum-bx">
-                                    <img src="../images/our-team5/pic1.jpg" alt="">
+                                    <img src="{{ asset('assets/frontend/images/our-team5/pic1.jpg') }}" alt="">
                                 </div>
                                 <div class="wt-team-info text-center p-lr10 p-tb20 bg-white">
                                     <h2 class="wt-team-title text-uppercase text-black font-32 font-weight-500">Robert willson</h2>
@@ -127,7 +123,7 @@
                                 <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc m-tb15">
                                     <div class="wt-team-six bg-white">
                                         <div class="wt-team-media wt-thum-bx wt-img-overlay1">
-                                            <img src="../images/our-team5/pic2.jpg" alt="">
+                                            <img src="{{ asset('assets/frontend/images/our-team5/pic2.jpg') }}" alt="">
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon">
                                                     <ul class="social-icons social-square social-dark">
@@ -151,7 +147,7 @@
                                 <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc m-tb15">
                                     <div class="wt-team-six bg-white">
                                         <div class="wt-team-media wt-thum-bx wt-img-overlay1">
-                                            <img src="../images/our-team5/pic3.jpg" alt="">
+                                            <img src="{{ asset('assets/frontend/images/our-team5/pic3.jpg') }}" alt="">
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon">
                                                     <ul class="social-icons social-square social-dark">
@@ -175,7 +171,7 @@
                                 <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc m-tb15">
                                     <div class="wt-team-six bg-white">
                                         <div class="wt-team-media wt-thum-bx wt-img-overlay1">
-                                            <img src="../images/our-team5/pic4.jpg" alt="">
+                                            <img src="{{ asset('assets/frontend/images/our-team5/pic4.jpg') }}" alt="">
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon">
                                                     <ul class="social-icons social-square social-dark">
@@ -199,7 +195,7 @@
                                 <div class="col-md-6 col-sm-6 col-xs-6 col-xs-100pc m-tb15">
                                     <div class="wt-team-six bg-white">
                                         <div class="wt-team-media wt-thum-bx wt-img-overlay1">
-                                            <img src="../images/our-team5/pic5.jpg" alt="">
+                                            <img src="{{ asset('assets/frontend/images/our-team5/pic5.jpg') }}" alt="">
                                             <div class="overlay-bx">
                                                 <div class="overlay-icon">
                                                     <ul class="social-icons social-square social-dark">
@@ -281,7 +277,7 @@
                             <div id="tab1" class="tab-pane active show">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20 ">
-                                        <img src="../images/gallery/portrait/pic1.jpg" alt="">
+                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic1.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -289,7 +285,7 @@
                             <div id="tab2" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="../images/gallery/portrait/pic2.jpg" alt="">
+                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic2.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -297,7 +293,7 @@
                             <div id="tab3" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="../images/gallery/portrait/pic3.jpg" alt="">
+                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic3.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +301,7 @@
                             <div id="tab4" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="../images/gallery/portrait/pic4.jpg" alt="">
+                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic4.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -313,7 +309,7 @@
                             <div id="tab5" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="../images/gallery/portrait/pic5.jpg" alt="">
+                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic5.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -321,7 +317,7 @@
                             <div id="tab6" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="../images/gallery/portrait/pic6.jpg" alt="">
+                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic6.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -383,7 +379,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="../images/gallery/pic1.jpg" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/pic1.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
@@ -398,7 +394,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="../images/gallery/pic3.jpg" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/pic3.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
@@ -414,7 +410,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="../images/gallery/pic4.jpg" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/pic4.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
@@ -428,7 +424,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="../images/gallery/pic5.jpg" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/pic5.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
@@ -449,3 +445,7 @@
 
 </div>
 <!-- CONTENT END -->
+
+@endsection
+
+
