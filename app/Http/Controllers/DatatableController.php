@@ -128,7 +128,7 @@ class DatatableController extends Controller
             ->addColumn('image', function ($project) {
                 if ($project->image) {
                     $image = ($project->image != "[]") ?  json_decode($project->image, true)[0] : "--";
-                    return '<img src="' . asset($image) . '" alt="project Image" width="180" height="60">';
+                    return '<img src="' . asset($image) . '" alt="project Image" width="250" height="250">';
                 } else {
                     return "-no image-";
                 }
