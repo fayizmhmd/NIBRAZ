@@ -754,120 +754,35 @@
                         <!-- TESTIMONIAL 4 START ON BACKGROUND -->
                         <div class="section-content">
                             <div class="owl-carousel testimonial-home">
+                                
+                 
+
+                                @foreach ($reviews as $review)
+
                                 <div class="item">
                                     <div class="testimonial-6">
                                         <div class="testimonial-pic-block">
                                             <div class="testimonial-pic">
-                                                <img src="{{asset('assets/frontend/images/testimonials/pic1.jpg')}}" width="132" height="132" alt="">
+                                                <img src="{{ $review->image }}" width="132" height="132" alt="">
                                             </div>
                                         </div>
                                         <div class="testimonial-text clearfix bg-white">
                                             <div class="testimonial-detail clearfix">
-                                                <strong class="testimonial-name">Taylor Roberts</strong>
-                                                <!-- <span class="testimonial-position p-t0">Co-manager associated</span> -->
+                                                <strong class="testimonial-name">{{ $review->name }}</strong>
+                                    
                                             </div>
                                             <div class="testimonial-paragraph text-black p-t15">
                                                 <span class="fa fa-quote-left"></span>
-                                                <p>Nirbaz Builders impresses with exceptional design, sustainability, and professional service, evident in projects like Mahalakshmi Complex and City Centre Mall.</p>
+                                                <p>{{ $review->review }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="testimonial-6">
-                                        <div class="testimonial-pic-block">
-                                            <div class="testimonial-pic">
-                                                <img src="{{asset('assets/frontend/images/testimonials/pic4.jpg')}}" width="132" height="132" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-text clearfix bg-white">
-                                            <div class="testimonial-detail clearfix">
-                                                <strong class="testimonial-name">Ritika willson</strong>
-                                                <!-- <span class="testimonial-position p-t0">Co-manager associated</span> -->
-                                            </div>
-                                            <div class="testimonial-paragraph text-black p-t15">
-                                                <span class="fa fa-quote-left"></span>
-                                                <p>Working with Nirbaz Builders has been a fantastic experience. Their innovative designs, attention to detail, and commitment to quality have resulted in stunning projects.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-6">
-                                        <div class="testimonial-pic-block">
-                                            <div class="testimonial-pic">
-                                                <img src="{{asset('assets/frontend/images/testimonials/pic2.jpg')}}" width="132" height="132" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-text clearfix bg-white">
-                                            <div class="testimonial-detail clearfix">
-                                                <strong class="testimonial-name">Joy Alex</strong>
-                                                <!-- <span class="testimonial-position p-t0">Co-manager associated</span> -->
-                                            </div>
-                                            <div class="testimonial-paragraph text-black p-t15">
-                                                <span class="fa fa-quote-left"></span>
-                                                <p>Working with Nirbaz Builders has been truly remarkable. Their innovative designs, meticulous attention to detail, and unwavering commitment to quality have consistently delivered stunning projects</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-6">
-                                        <div class="testimonial-pic-block">
-                                            <div class="testimonial-pic">
-                                                <img src="{{asset('assets/frontend/images/testimonials/pic3.jpg')}}" width="132" height="132" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-text clearfix bg-white">
-                                            <div class="testimonial-detail clearfix">
-                                                <strong class="testimonial-name">Sofia Robert</strong>
-                                                <!-- <span class="testimonial-position p-t0">Co-manager associated</span> -->
-                                            </div>
-                                            <div class="testimonial-paragraph text-black p-t15">
-                                                <span class="fa fa-quote-left"></span>
-                                                <p>Working with Nirbaz Builders has been an exceptional experience. Their innovative designs, meticulous attention to detail, and steadfast commitment to quality consistently produce outstanding results</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="item">
-                                    <div class="testimonial-6">
-                                        <div class="testimonial-pic-block">
-                                            <div class="testimonial-pic">
-                                                <img src="{{asset('assets/frontend/images/testimonials/pic1.jpg"')}}" width="132" height="132" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-text clearfix bg-white">
-                                            <div class="testimonial-detail clearfix">
-                                                <strong class="testimonial-name">Taylor Roberts</strong>
-                                                <span class="testimonial-position p-t0">Co-manager associated</span>
-                                            </div>
-                                            <div class="testimonial-paragraph text-black p-t15">
-                                                <span class="fa fa-quote-left"></span>
-                                                <p>typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces of dummy text is nonsensical.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-6">
-                                        <div class="testimonial-pic-block">
-                                            <div class="testimonial-pic">
-                                                <img src="images/testimonials/pic4.jpg')}}" width="132" height="132" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-text clearfix bg-white">
-                                            <div class="testimonial-detail clearfix">
-                                                <strong class="testimonial-name">Taylor Roberts</strong>
-                                                <span class="testimonial-position p-t0">Co-manager associated</span>
-                                            </div>
-                                            <div class="testimonial-paragraph text-black p-t15">
-                                                <span class="fa fa-quote-left"></span>
-                                                <p>typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces of dummy text is nonsensical.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                                                                                 -->
+                                
+                                @endforeach
+
+                                
+                                                                                                                               
                             </div>
                         </div>
                     </div>
