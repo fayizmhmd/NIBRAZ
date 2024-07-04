@@ -20,4 +20,14 @@ class FrontEndController extends Controller
     }
 
 
+    public function Gallery(){
+        return view('frontend.gallery');
+    }
+
+    public function ContactUs()
+    {
+        return view('frontend.contactus');
+    }
+
+
 }
