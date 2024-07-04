@@ -25,26 +25,24 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
- 
+//FrontEnd:--
+Route::get('/', [FrontEndController::class, 'home'])->name('frontend.home');
+//About-us
+Route::get('/about', [FrontEndController::class, 'AboutUs'])->name('front.AboutUs');
+//contact-us
+Route::get('/contact', [FrontEndController::class, 'ContactUs'])->name('front.ContactUs');
+//Gallery
+Route::get('/gallery', [FrontEndController::class,'Gallery'])->name('front.Gallery');
+//Project
+Route::get('/project', [FrontEndController::class, 'Project'])->name('front.Project');
 
-// Route::get('/', [FrontEndController::class, 'home'])->name('admin.home');
 
 
 
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('do-login', [AuthController::class, 'doLogin'])->name('do.login');
 
-//FrontEnd
 
-Route::get('/home', [FrontEndController::class, 'home'])->name('home');
-//All Colleges
-Route::get('/all-colleges', [FrontEndController::class, 'allcolleges'])->name('front.allcolleges');
-//About-us
-Route::get('/about-us', [AboutUsController::class, 'AboutUs'])->name('front.viewAboutUs');
-//contact-us
-Route::get('/contact-us', [FrontEndController::class, 'ContactUs'])->name('front.Contact');
-//Gallery
-Route::get('/gallery', [FrontEndController::class,'Gallery'])->name('front.Gallery');
 
 
 
@@ -75,10 +73,6 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/delete-user/{id}', [UserController::class, 'deleteUser'])->name('admin.deleteUser');
     });
 
-    //home
-    Route::get('/', function () {
-        Route::get('/home', [FrontEndController::class, 'home'])->name('frontend.home');
-    });
 
     //Projects
     Route::get('/view-projects', [ProjectController::class, 'viewProjects'])->name('admin.viewProjects');

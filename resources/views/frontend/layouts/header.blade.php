@@ -102,21 +102,21 @@
                                 </li>
 
                                 <li>
-                                    <a href="/about">About us</a>
+                                    <a href="{{ asset('about') }}">About us</a>
                                 </li>
 
                                 <li>
-                                    <a href="/contact">Contact us</a>
+                                    <a href="{{ asset('contact') }}">Contact us</a>
                                 </li>
 
 
                                 <li>
-                                    <a href="/gallery">Gallery</a>
+                                    <a href="{{ asset('gallery') }}">Gallery</a>
                                 </li>
 
                                 <li>
 
-                                    <a href="/project">Projects</a>
+                                    <a href="{{ asset('project') }}">Projects</a>
                                 </li>
 
 
