@@ -42,7 +42,12 @@ Route::get('/all-colleges', [FrontEndController::class, 'allcolleges'])->name('f
 //About-us
 Route::get('/about-us', [AboutUsController::class, 'AboutUs'])->name('front.viewAboutUs');
 //contact-us
-Route::get('/contact-us', [ContactUsController::class, 'ContactUs'])->name('front.viewContactUs');
+Route::get('/contact-us', [FrontEndController::class, 'ContactUs'])->name('front.Contact');
+//Gallery
+Route::get('/gallery', [FrontEndController::class,'Gallery'])->name('front.Gallery');
+
+
+
 //category
 Route::get('/category/{id}', [FrontEndController::class, 'listByCategory'])->name('admin.listByCategory');
 
