@@ -1,155 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
 
-    <meta name="title" content="LeForum International | Premier Educational Consultancy in Bangalore">
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="images/NIBRAZ ONLY fav.png" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/NIBRAZ ONLY fav.png" />
+
+    <!-- PAGE TITLE HERE -->
+    <title>Home | Nirbaz Builders</title>
+
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <meta name="keywords"
-        content="LeForum International, educational consultancy, Bangalore, academic guidance, university admission, study abroad, student counseling, top universities, education consultancy services, higher education, college admission support, career counseling">
 
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/css/loader.min.css')}}"> <!-- LOADER STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/css/bootstrap.min.css')}}"><!-- BOOTSTRAP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/css/fontawesome/css/font-awesome.min.css')}}" /><!-- FONTAWESOME STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/css/owl.carousel.min.css')}}"><!-- OWL CAROUSEL STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/css/magnific-popup.min.css')}}"><!-- MAGNIFIC POPUP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/css/style.css')}}"><!-- MAIN STYLE SHEET -->
+    <!-- REVOLUTION SLIDER 4 STYLE -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/css/rev-slider-4.css')}}">
+    <!-- REVOLUTION SLIDER CSS -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/plugins/revolution/revolution/css/settings.css')}}">
+    <!-- REVOLUTION NAVIGATION STYLE -->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/frontend/plugins/revolution/revolution/css/navigation.css')}}">
 
-    <meta name="description"
-        content="LeForum International offers expert educational consultancy services, guiding students to achieve academic excellence and gain admission to top universities in banglore.">
+ 	<!-- BEFORE/AFTER ADD-ON FILES  MUST BE INSERTED AFTER THE SLIDER DOM ELEMENTS !-->
+	<link rel='stylesheet' href="{{asset('assets/frontend/plugins/revolution/revolution-addons/beforeafter/css/revolution.addon.beforeafter.css')}}" type='text/css' media='all' />
 
-    <title>Colleges| Le Forum</title>
-    @php
-        $path = asset('/');
-    @endphp
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,800,800i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i&amp;subset=latin-ext" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{ $path }}frontstyles/assets/images/le-logo-gold-EMBLEM.png"
-        type="image/x-icon" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.36.0/tabler-icons.min.css" />
-
-    <link rel="stylesheet" href="{{ $path }}frontstyles/assets/css/style.min.css" />
-
-    <style>
-        .custom-alert {
-    display: none;
-    position: fixed;
-    top: 20px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    background-color: green; /* Light background color */
-     /* Black text color */
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    z-index: 1000;
-    width: 300px;
-    border: 1px solid green;
-    text-align: center;
-}
-.success-message{
-    color: black !important;
-}
-    </style>
 </head>
 
-<body class="n0-bg">
+<body id="bg">
 
-    <div id="preloader">
+	<div class="page-wraper">
 
-        <img style="width: 150px" src="{{ $path }}frontstyles/assets/images/le-logo-gold-EMBLEM.png"
-            alt="img" class="bookicon-preloader" />
-    </div>
-    <!-- end preloader -->
+        <!-- HEADER START -->
+        <header class="site-header header-style-1  nav-wide mobile-sider-drawer-menu">
 
-    <!-- Scroll To Top Start-->
-    <button class="scrollToTop d-md-flex d-center" aria-label="scroll Bar Button">
-        <i class="mat-icon fas fa-angle-double-up"></i>
-    </button>
-
-    <div class="mouse-follower">
-        <span class="cursor-outline"></span>
-        <span class="cursor-dot"></span>
-    </div>
-
-    <header class="header-section">
-
-        <div class="header__topone header__bg">
-            <div class="container">
-                <div class="top-header d-flex gap-5 align-items-center justify-content-between py-lg-5 py-4">
-                    <div class="d-flex gap-lg-10 gap-xl-15 align-items-center">
-
-
-
-                        <div class="category__oneadjust gap-6 d-flex align-items-center">
-
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-        <div class="one__header bg1-color">
-
-            <div class="container">
-
-                <div class="main-navbar one__mainheader">
-
-                    <nav class="navbar-custom">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <a href="{{ route('front.allcolleges') }}" class="nav-brand d-block d-lg-none">
-                                <img style="width: 200px" class="d-none d-md-block"
-                                    src="{{ $path }}frontstyles/assets/images/le-logo-white-12.png"
-                                    alt="logo" />
-                                <img style="width: 200px" class="d-block d-md-none"
-                                    src="{{ $path }}frontstyles/assets/images/le-logo-gold-12.png"
-                                    alt="logo" />
+            <div class="sticky-header main-bar-wraper">
+                <div class="main-bar bg-white p-t10">
+                    <div class="container">
+                        <div class="logo-header">
+                            <div class="logo-header-inner logo-header-one">
+                                <a href="/">
+                                <img src="{{asset('assets/frontend/images/NIBRAZ ONLY (B).png')}}" width="171" height="80" alt="" />
                             </a>
-                            <div class="d-flex gap-6">
-                                <div class="switch-wrapper-top d-flex d-lg-none"></div>
-                                <button class="navbar-toggle-btn d-block d-lg-none" type="button">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </button>
                             </div>
                         </div>
-                        <div class="navbar-toggle-item cus__scroll">
-                            <div
-                                class="d-flex gap-5 flex-column flex-lg-row align-items-start align-items-lg-center justify-content-between mt-5 mt-lg-0">
-                                <a href="{{ route('front.allcolleges') }}" class="navbar-brand logo">
-                                    <img style="width: 70px" class=""
-                                        src="{{ $path }}frontstyles/assets/images/le-logo-gold-EMBLEM.png"
-                                        alt="logo" />
-                                </a>
-                                <ul class="custom-nav d-lg-flex d-grid gap-4 gap-xl-6">
-                                    <li class="menu-item itembg__1 position-relative">
-                                        <a href="{{ route('admin.home') }}" class="fw_500 n0-color">Home</a>
+                        <!-- NAV Toggle Button -->
+                        <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar icon-bar-first"></span>
+                            <span class="icon-bar icon-bar-two"></span>
+                            <span class="icon-bar icon-bar-three"></span>
+                        </button>
 
-                                    </li>
+                        <!-- MAIN Vav -->
+                        <div class="header-nav navbar-collapse collapse">
+                            <ul class=" nav navbar-nav">
+                                <!-- <li class="active">
+                                    <a href="index.html">Home</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="index.html">Home-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-2.html">Home-2</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-3.html">Home-3</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-4.html">Home-4</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-5.html">Home-5</a>
+                                        </li>
+                                    </ul>
+                                </li> -->
 
-                                    <li class="menu-item itembg__1 position-relative">
-                                        <a href="{{ route('front.allcolleges') }}" class="fw_500 n0-color">Colleges</a>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="/about">About us</a>
+                                </li>
+
+                                <li>
+                                    <a href="/contact">Contact us</a>
+                                </li>
 
 
-                                    </li>
-                                    <li class="menu-item itembg__1 position-relative">
-                                        <a href="{{ route('front.viewAboutUs') }}" class="fw_500 n0-color">About Us</a>
+                                <li>
+                                    <a href="/gallery">Gallery</a>
+                                </li>
 
-                                    </li>
+                                <li>
 
-                                    <li class="menu-item itembg__1 position-relative">
-                                        <a href="{{ route('front.viewContactUs') }}" class="fw_500"> Contact Us </a>
-                                    </li>
-                                </ul>
+                                    <a href="/project">Projects</a>
+                                </li>
 
-                            </div>
+
+
+
+
+
+                                <!-- <li>
+                                    <a href="javascript:;">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="about-1.html">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact-1.html">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </li> -->
+
+
+                                <!-- <li>
+                                    <a href="javascript:;">News</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="news-grid.html">Grid</a></li>
+                                        <li><a href="news-listing.html">Listing</a></li>
+                                        <li><a href="news-masonry.html">Masonry</a></li>
+                                    </ul>
+                                </li> -->
+
+                                <!-- <li>
+                                    <a href="javascript:;">Works</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="work-grid.html">Grid</a></li>
+                                        <li><a href="work-masonry.html">Masonry</a></li>
+                                        <li><a href="work-carousel.html">Carousel</a></li>
+                                        <li><a href="project-detail.html">Project Detail</a></li>
+                                    </ul>
+                                </li> -->
+
+                                <!-- <li>
+                                    <a href="javascript:;">Post detail</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="post-image.html">Image</a></li>
+                                        <li><a href="post-gallery.html">Gallery</a></li>
+                                        <li><a href="post-video.html">Video</a></li>
+                                        <li><a href="post-right-sidebar.html">Right Sidebar</a></li>
+                                    </ul>
+                                </li> -->
+
+                                <!-- <li class="submenu-direction">
+                                    <a href="javascript:;">Shortcodes</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="accordian.html">All Elements</a></li>
+                                    </ul>
+                                </li>                                 -->
+                            </ul>
                         </div>
-                    </nav>
+                        <!-- ETRA Nav -->
+                        <!-- <div class="extra-nav">
+                            <div class="extra-cell">
+                                <a href="#search" class="site-search-btn"><i class="fa fa-search"></i></a>
+                            </div>
+                         </div> -->
+                        <!-- SITE Search -->
+                        <!-- <div id="search">
+                            <span class="close"></span>
+                            <form role="search" id="searchform" action="https://thewebmax.org/search" method="get" class="radius-xl">
+                                <div class="input-group">
+                                    <input value="" name="q" type="search" placeholder="Type to search"/>
+                                    <span class="input-group-btn"><button type="button" class="search-btn"><i class="fa fa-search"></i></button></span>
+                                </div>
+                            </form>
+                        </div> -->
+
+                    </div>
                 </div>
-
             </div>
-        </div>
-    </header>
+
+        </header>
+        <!-- HEADER END -->
