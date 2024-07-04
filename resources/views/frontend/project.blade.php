@@ -1,4 +1,5 @@
 @extends('frontend.layouts.master')
+@section('title', 'Project')
 
 @section('content')
 <!-- CONTENT START -->

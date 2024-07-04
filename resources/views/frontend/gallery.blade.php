@@ -1,4 +1,5 @@
 @extends('frontend.layouts.master')
+@section('title', 'Gallery')
 
 @section('content')
 

@@ -18,7 +18,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/NIBRAZ ONLY fav.png" />
 
     <!-- PAGE TITLE HERE -->
-    <title>Home | Nirbaz Builders</title>
+    <title>@yield('title') | Nirbaz Builders</title>
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
