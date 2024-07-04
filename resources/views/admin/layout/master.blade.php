@@ -14,7 +14,7 @@
         $path = asset('/');
     @endphp
     {{-- <link rel="shortcut icon" href="{{ $path }}frontstyles/assets/images/le-logo-gold-EMBLEM.png"> --}}
-    <link rel="icon" type="image/x-icon" href="{{ $path }}NibrazImages/nibraz-logo.png">
+    <link rel="icon" type="image/x-icon" href="{{ $path }}NibrazImages/NIBRAZ-fav.png">
     <link rel="stylesheet" href="{{ $path }}assets/css/dashlitee5ca.css">
     <link id="skin-default" rel="stylesheet" href="{{ $path }}assets/css/themee5ca.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
