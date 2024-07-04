@@ -111,6 +111,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/toggle-reviews/{id}', [ReviewController::class, 'toggleReview'])->name('admin.toggleReview');
 
 
+    
+
     //contact us
     Route::get('/view-contact-us', [ContactUsController::class, 'viewcontact'])->name('admin.viewcontact');
 
