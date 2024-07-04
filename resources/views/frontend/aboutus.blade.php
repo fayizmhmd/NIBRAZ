@@ -1,4 +1,6 @@
 @extends('frontend.layouts.master')
+@section('title', 'About Us')
+
 @section('content')
 <!-- CONTENT START -->
 <div class="page-content">
