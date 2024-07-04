@@ -25,12 +25,8 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-// Route::get('/', function () {
-//     // return redirect()->route('admin.home');
-//     Route::get('/home', [FrontEndController::class, 'home'])->name('admin.home');
+ 
 
-
-// });
 // Route::get('/', [FrontEndController::class, 'home'])->name('admin.home');
 
 
@@ -74,6 +70,10 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/delete-user/{id}', [UserController::class, 'deleteUser'])->name('admin.deleteUser');
     });
 
+    //home
+    Route::get('/', function () {
+        Route::get('/home', [FrontEndController::class, 'home'])->name('frontend.home');
+    });
 
     //Projects
     Route::get('/view-projects', [ProjectController::class, 'viewProjects'])->name('admin.viewProjects');
