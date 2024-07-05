@@ -650,9 +650,9 @@
                                 <div class="item">
                                     <div class="testimonial-6">
                                         <div class="testimonial-pic-block">
-                                            <div class="testimonial-pic">
+                                            {{-- <div class="testimonial-pic">
                                                 <img src="{{ $review->image }}" width="132" height="132" alt="">
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="testimonial-text clearfix bg-white">
                                             <div class="testimonial-detail clearfix">

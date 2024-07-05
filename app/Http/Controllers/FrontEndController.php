@@ -37,7 +37,8 @@ class FrontEndController extends Controller
 
     public function Project()
     {
-        return view('frontend.project');
+        $projects = Project::all();
+        return view('frontend.project',compact('projects'));
     }
 
 
