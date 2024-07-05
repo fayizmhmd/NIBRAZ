@@ -93,6 +93,17 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/toggle-gallery/{id}', [GalleryController::class, 'toggleGallery'])->name('admin.toggleGallery');
 
 
+    //ClientLogo
+
+
+    Route::get('/logo', [LogoController::class,   'ViewLogo'])->name('admin.viewlogo');
+    Route::get('/add-logo', [LogoController::class, 'addLogo'])->name('admin.addlogo');
+    Route::get('/edit-logo/{id}', [LogoController::class, 'editLogo'])->name('admin.editlogo');
+    Route::post('/save-logo', [LogoController::class, 'saveLogo'])->name('admin.savelogo');
+    Route::post('/update-logo/{id}', [LogoController::class, 'updateLogo'])->name('admin.updatelogo');
+    Route::get('/delete-logo/{id}', [LogoController::class, 'deleteLogo'])->name('admin.deletelogo');
+
+
 
 
 
