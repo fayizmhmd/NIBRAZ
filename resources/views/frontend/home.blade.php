@@ -706,48 +706,16 @@
                                 <div class="col-lg-8 col-md-12">
                                     <div class="section-content bg-white p-tb10">
                                         <div class="owl-carousel home-client-carousel owl-btn-center-v">
+                                            @foreach ($logos as $logo)
 
                                             <div class="item">
                                                 <div class="ow-client-logo">
                                                     <div class="client-logo client-logo-media">
-                                                    <a href="#"><img src="{{asset('assets/frontend/images/client-logo/w1.png')}}" alt=""></a></div>
+                                                    <a href="#"><img src="{{ $logo->image }}" alt=""></a></div>
                                                 </div>
                                             </div>
+                                            @endforeach
 
-                                            <div class="item">
-                                                <div class="ow-client-logo">
-                                                    <div class="client-logo client-logo-media">
-                                                    <a href="#"><img src="{{asset('assets/frontend/images/client-logo/w2.png')}}" alt=""></a></div>
-                                                </div>
-                                            </div>
-
-                                            <div class="item">
-                                                <div class="ow-client-logo">
-                                                    <div class="client-logo client-logo-media">
-                                                    <a href="#"><img src="{{asset('assets/frontend/images/client-logo/w3.png')}}" alt=""></a></div>
-                                                </div>
-                                            </div>
-
-                                            <div class="item">
-                                                <div class="ow-client-logo">
-                                                    <div class="client-logo client-logo-media">
-                                                    <a href="#"><img src="{{asset('assets/frontend/images/client-logo/w4.png')}}" alt=""></a></div>
-                                                </div>
-                                            </div>
-
-                                            <div class="item">
-                                                <div class="ow-client-logo">
-                                                    <div class="client-logo client-logo-media">
-                                                    <a href="#"><img src="{{asset('assets/frontend/images/client-logo/w5.png')}}" alt=""></a></div>
-                                                </div>
-                                            </div>
-
-                                            <div class="item">
-                                                <div class="ow-client-logo">
-                                                    <div class="client-logo client-logo-media">
-                                                    <a href="#"><img src="{{asset('assets/frontend/images/client-logo/w6.png')}}" alt=""></a></div>
-                                                </div>
-                                            </div>
 
                                         </div>
                                     </div>
