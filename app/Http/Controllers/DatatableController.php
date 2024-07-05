@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\ClientLogo;
 use App\Models\College;
 use App\Models\CollegeReview;
 use App\Models\Course;
@@ -261,6 +262,77 @@ class DatatableController extends Controller
             ->rawColumns(['id', 'name', 'description', 'image', 'status', 'action'])
             ->make(true);
     }
+
+
+
+
+    public function getLogos()
+    {
+
+        $logos = ClientLogo::get();
+        return DataTables::of($logos)
+            ->addColumn('id', function ($logo) {
+                return $logo->id;
+            })
+            ->addColumn('name', function ($logo) {
+                if (isset($logo->name))
+                    return $logo->name;
+                else
+                    return 'Name Not Given';
+            })
+
+            ->addColumn('image', function ($logo) {
+                if ($logo->image) {
+                    return '<img src="' . asset($logo->image) . '" alt="logo Image" width="180" height="60">';
+                } else {
+                    return "-no image-";
+                }
+            })
+            ->addColumn('action', function ($logo) {
+
+                $html = '<ul class="nk-tb-actions gx-1">
+                <li>
+                   <div class="drodown"><a href="#"
+                       class="dropdown-toggle btn btn-icon btn-trigger"
+                       data-bs-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                    <div class="dropdown-menu dropdown-menu-end">
+                       <ul class="link-list-opt no-bdr">
+                           <li>
+                               <a href="' . route('admin.editlogo', $logo->id) . '">
+                                   <em class="icon ni ni-edit"></em>
+                                   <span>Edit logo</span>
+                               </a>
+                           </li>
+                           <li>
+                               <a data-bs-toggle="modal"
+                                   data-bs-target="#deletelogo' . $logo->id . '">
+                                   <em class="icon ni ni-trash"></em>
+                                   <span>Delete logo</span></span>
+                               </a>
+                           </li>
+                           </ui>
+                           </div>
+                           </div>
+                           </li>
+                           </ui>';
+
+                return $html;
+            })
+            ->rawColumns(['id', 'name', 'image',  'action'])
+            ->make(true);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

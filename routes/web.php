@@ -95,7 +95,7 @@ Route::middleware(['auth'])->group(function () {
 
     //ClientLogo
 
-    Route::get('/logo', [LogoController::class,   'ViewLogo'])->name('admin.viewlogo');
+    Route::get('/view-logo', [LogoController::class,   'ViewLogo'])->name('admin.viewlogo');
     Route::get('/add-logo', [LogoController::class, 'addLogo'])->name('admin.addlogo');
     Route::get('/edit-logo/{id}', [LogoController::class, 'editLogo'])->name('admin.editlogo');
     Route::post('/save-logo', [LogoController::class, 'saveLogo'])->name('admin.savelogo');
@@ -161,6 +161,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/get-all-reviews-datatable', [DatatableController::class, 'getAllReviews'])->name('admin.getAllReviews');
     Route::get('/get-all-projects-datatable', [DatatableController::class, 'getAllprojects'])->name('admin.getAllprojects');
     Route::get('/get-all-gallaries-datatable', [DatatableController::class, 'getGalleries'])->name('admin.getGalleries');
+    Route::get('/get-all-logos-datatable', [DatatableController::class, 'getLogos'])->name('admin.getlogos');
 
 
 

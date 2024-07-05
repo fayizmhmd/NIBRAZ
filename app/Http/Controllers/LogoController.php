@@ -10,34 +10,32 @@ use Illuminate\Support\Facades\Storage;
 class LogoController extends Controller
 {
     public function ViewLogo() {
-        return view('admin.logo.viewlogo');
+
+        $logos = ClientLogo::all();
+        return view('admin.logo.viewlogo', compact('logos'));
     }
     public function addLogo() {
         return view('admin.logo.addlogo');
     }
 
     public function editLogo($id) {
-        $logos = ClientLogo::find($id);
-        return view('admin.logo.editlogo', compact('logos','id'));
+        $logo = ClientLogo::find($id);
+        return view('admin.logo.editlogo', compact('logo','id'));
     }
 
     public function saveLogo(Request $request) {
-        $logos                     = new ClientLogo();
-        $logos->name              = $request->name;
-        $logos->description        = $request->content;
+        $logo                     = new ClientLogo();
+        $logo->name              = $request->name;
 
-        $images = [];
-
-        if ($request->file('images')) {
-            foreach ($request->file('images') as $image) {
-                $imageName = time() . '_' . $image->getClientOriginalName();
-                $image->move(public_path('/logos/'), $imageName);
-                $images[] = 'logos/' . $imageName;
-            }
-            $logos->image = json_encode($images);
+        if ($request->file('image')) {
+            $file = $request->file('image');
+            $imageName = time() . $file->getClientOriginalName();
+            $file->move(public_path('/logos/'), $imageName);
+            @unlink(public_path($logo->image));
+            $logo->image = 'logos/' . $imageName;
         }
 
-        $logos->save();
+        $logo->save();
         return redirect()->route('admin.viewlogo')->with("message", "Logo Saved Successfully");
     }
 
@@ -45,24 +43,18 @@ class LogoController extends Controller
 
 
     {
-        $logos = ClientLogo::find($id);
-        $logos->name         =   $request->name;
-       
-
-        $logos->description = $request->content;
-
-        $images = [];
-        if ($request->file('images')) {
-
-            foreach ($request->file('images') as $image) {
-                $imageName = time() . '_' . $image->getClientOriginalName();
-                $image->move(public_path('/logos/'), $imageName);
-                $images[] = 'logos/' . $imageName;
-            }
+        $logo = ClientLogo::find($id);
+        $logo->name         =   $request->name;
+        
+        if ($request->file('image')) {
+            $file = $request->file('image');
+            $imageName = time() . $file->getClientOriginalName();
+            $file->move(public_path('/logos/'), $imageName);
+            @unlink(public_path($logo->image));
+            $logo->image = 'logos/' . $imageName;
         }
-        $logos->image = json_encode($images);
 
-        $logos->save();
+        $logo->save();
 
         return redirect()->route('admin.viewlogo')->with('message', 'Gallery updated successfully');
     }
@@ -71,14 +63,14 @@ class LogoController extends Controller
 
     public function deleteLogo($id)
     {
-        $logos = ClientLogo::find($id);
+        $logo = ClientLogo::find($id);
 
-        if ($logos) {
-            if (!empty($logos->image)) {
-                Storage::delete('images/' . $logos->image);
+        if ($logo) {
+            if (!empty($logo->image)) {
+                Storage::delete('images/' . $logo->image);
             }
 
-            $logos->delete();
+            $logo->delete();
 
             return redirect()->route('admin.viewlogo')->with('message', 'logo deleted successfully');
         } else {

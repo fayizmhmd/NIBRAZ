@@ -21,7 +21,7 @@
             <div class="card card-bordered card-preview">
                 <div class="card-inner">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-hover" id="clientlogo">
+                        <table class="table table-bordered table-hover" id="logo">
                             <thead>
                                 <tr>
                                     <th class="text-center">Id</th>
@@ -41,35 +41,34 @@
     </div>
 
 
-    {{-- @foreach ($galleries as $gallery)
-    <div class="modal fade" id="deletegallery{{ $gallery->id }}" tabindex="-1">
+     @foreach ($logos as $logo)
+    <div class="modal fade" id="deletelogo{{ $logo->id }}" tabindex="-1">
         <div class="modal-dialog modal-dialog-top">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Delete College</h5>
+                    <h5 class="modal-title">Delete Logo</h5>
                     <div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
                         <i class="bi bi-x-lg"></i>
                     </div>
                 </div>
                 <div class="modal-body">
-                    <p>Do you really want to delete this gallery?</p>
+                    <p>Do you really want to delete this logo?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-                    <a href="{{ route('admin.deleteGallery', ['id' => $gallery->id]) }}" type="button" class="btn btn-danger">Delete</a>
+                    <a href="{{ route('admin.deletelogo', ['id' => $logo->id]) }}" type="button" class="btn btn-danger">Delete</a>
                 </div>
             </div>
         </div>
     </div>
-@endforeach --}}
-
+@endforeach 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
-            var datatable = $('#gallery').DataTable({
+            var datatable = $('#logo').DataTable({
                 processing: true,
                 serverSide: true,
                 stateSave: true,
@@ -87,12 +86,11 @@
                 order: [
                     [0, "desc"]
                 ],
-                ajax: '{{ route('admin.getGalleries') }}',
+                ajax: '{{ route('admin.getlogos') }}',
                 columns: [
                     { data: 'id' },
                     {data: 'name' ,sortable: false },
                     { data: 'image', sortable: false },
-                    { data: 'status', sortable: false },
                     { data: 'action', sortable: false },
                 ],
             });
