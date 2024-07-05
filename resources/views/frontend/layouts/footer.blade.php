@@ -10,8 +10,14 @@
                     <a href="/"><img src="{{asset('assets/frontend/images/NIBRAZ ONLY (B).png')}}" width="200" height="58" alt=""></a>
                 </div>
 
-                <div class="text-center copyright-block p-t15">
+                {{-- <div class="text-center copyright-block p-t15">
                     <span class="copyrights-text">© 2024 NIBRAZ BUILDERS LLC.Designed By HowinCLOUD.</span>
+                </div> --}}
+
+                <div class="nk-footer-copyright"> © 2024 NIBRAZ BUILDERS LLC. Powered By
+                    <a href="https://howincloud.com" target="_blank" class="text-dark text-hover-dark me-2"
+                        style="  font-weight: 700">Howin<span style="color: red;  font-weight: 700">Cloud</span>
+                    </a>
                 </div>
 
             </div>
