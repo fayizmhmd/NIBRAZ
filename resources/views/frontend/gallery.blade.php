@@ -35,7 +35,7 @@
     <div class="section-full p-t80 p-b50">
         <div class="container">
             <!-- PAGINATION START -->
-            <div class="filter-wrap p-b50">
+            {{-- <div class="filter-wrap p-b50">
                 <ul class="masonry-filter link-style  text-uppercase">
                         <li class="active"><a data-filter="*" href="#">All</a></li>
                         <li><a data-filter=".cat-1" href="#">House</a></li>
@@ -44,7 +44,7 @@
                         <li><a data-filter=".cat-4" href="#">Garden</a></li>
                         <li><a data-filter=".cat-5" href="#">Interior</a></li>
                 </ul>
-            </div>
+            </div> --}}
             <!-- PAGINATION END -->
         </div>
         <!-- GALLERY CONTENT START -->
@@ -60,11 +60,11 @@
                                 <div class="overlay-bx-2 ">
                                     <div class="line-amiation">
                                         <div class="text-white  font-weight-300 p-a40">
-                                            <h2><a href="project-detail.html" class="text-white font-20 letter-spacing-4 text-uppercase">{{ $gallery->name }}</a></h2>
+                                            <h2 class="text-white font-20 letter-spacing-4 text-uppercase">{{ $gallery->name }}</h2>
                                             <p>
                                                 {!! $gallery->description !!}
                                             </p>
-                                            <a href="project-detail.html" class="v-button letter-spacing-4 font-12 text-uppercase p-l20">Read More</a>
+                                            {{-- <a href="project-detail.html" class="v-button letter-spacing-4 font-12 text-uppercase p-l20">Read More</a> --}}
                                         </div>
                                     </div>
                                </div>
