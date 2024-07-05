@@ -14,7 +14,7 @@ use App\Http\Controllers\ReportController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\GalleryController;
-use App\Http\Controllers\LogoController;
+
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -91,13 +91,6 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/update-gallery/{id}', [GalleryController::class, 'updateGallery'])->name('admin.updateGallery');
     Route::get('/delete-gallery/{id}', [GalleryController::class, 'deleteGallery'])->name('admin.deleteGallery');
     Route::get('/toggle-gallery/{id}', [GalleryController::class, 'toggleGallery'])->name('admin.toggleGallery');
-
-
-
-    Route::get('/logo', [LogoController::class,   'ViewLogo'])->name('admin.viewlogo');
-    Route::get('/add-logo', [LogoController::class, 'addLogo'])->name('admin.addlogo');
-    Route::get('/edit-logo/{id}', [LogoController::class, 'editLogo'])->name('admin.editlogo');
-    Route::post('/save-logo', [LogoController::class, 'saveLogo'])->name('admin.savelogo');
 
 
 

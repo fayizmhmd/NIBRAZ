@@ -3,10 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Models\Category;
-use App\Models\College;
-use App\Models\Course;
-use App\Models\Location;
+use App\Models\Gallery;
 use App\Models\Project;
 use App\Models\Review;
 use App\Models\Setting;
@@ -23,7 +20,8 @@ class FrontEndController extends Controller
 
 
     public function Gallery(){
-        return view('frontend.gallery');
+        $galleries = Gallery::all();
+        return view('frontend.gallery',compact('galleries'));
     }
 
     public function AboutUs()

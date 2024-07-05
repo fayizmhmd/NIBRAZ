@@ -208,7 +208,7 @@ class DatatableController extends Controller
             })
             ->addColumn('image', function ($gallery) {
                 if ($gallery->image) {
-                    return '<img src="' . asset(json_decode($gallery->image, true)[0]) . '" alt="gallery Image" width="180" height="60">';
+                    return '<img src="' . asset(json_decode($gallery->image, true)[0]) . '" alt="gallery Image" width="250" height="300">';
                 } else {
                     return "-no image-";
                 }
