@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\ClientLogo;
 use App\Models\Gallery;
 use App\Models\Project;
 use App\Models\Review;
 use App\Models\Setting;
+use Illuminate\Auth\Events\Logout;
 use Illuminate\Http\Request;
 
 class FrontEndController extends Controller
@@ -15,7 +17,8 @@ class FrontEndController extends Controller
     {
         $reviews = Review::all();
         $projects = Project::all();
-        return view('frontend.home', compact('reviews','projects'));
+        $logos = ClientLogo::all();
+        return view('frontend.home', compact('reviews','projects','logos'));
     }
 
 

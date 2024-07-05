@@ -35,6 +35,8 @@ Route::get('/contact', [FrontEndController::class, 'ContactUs'])->name('front.Co
 Route::get('/gallery', [FrontEndController::class,'Gallery'])->name('front.Gallery');
 //Project
 Route::get('/project', [FrontEndController::class, 'Project'])->name('front.Project');
+//contactus
+Route::post('/save-contact-us', [ContactUsController::class, 'savecontact'])->name('savecontact');
 
 
 
@@ -128,6 +130,7 @@ Route::middleware(['auth'])->group(function () {
 
     //contact us
     Route::get('/view-contact-us', [ContactUsController::class, 'viewcontact'])->name('admin.viewcontact');
+
 
 
     //mail from user
