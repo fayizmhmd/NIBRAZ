@@ -16,7 +16,7 @@ class FrontEndController extends Controller
     public function home()
     {
         $reviews = Review::all();
-        $projects = Project::all();
+        $projects =  Project::where('is_active', 1)->get();
         $logos = ClientLogo::all();
         return view('frontend.home', compact('reviews','projects','logos'));
     }
@@ -40,7 +40,7 @@ class FrontEndController extends Controller
 
     public function Project()
     {
-        $projects = Project::all();
+        $projects = Project::where('is_active', 1)->get();
         return view('frontend.project',compact('projects'));
     }
 

@@ -36,7 +36,7 @@ class ReviewController extends Controller
             $review->image = 'reviews/' . $imageName;
         }
         $review->save();
-        return redirect()->route('admin.viewReviews')->with('success', 'Review added successfully');
+        return redirect()->route('admin.viewReviews')->with('message', 'Review added successfully');
     }
 
     public function editReviews($id)
@@ -62,7 +62,7 @@ class ReviewController extends Controller
 
         $review->save();
 
-        return redirect()->route('admin.viewReviews')->with('success', 'Review updated successfully');
+        return redirect()->route('admin.viewReviews')->with('message', 'Review updated successfully');
     }
 
 
@@ -72,9 +72,9 @@ class ReviewController extends Controller
         if ($review) {
             $review->toggleActive();
             $review->save();
-            return redirect()->back()->with(['success' => 'Status Changed Successfully']);
+            return redirect()->back()->with(['message' => 'Status Changed Successfully']);
         } else {
-            return redirect()->back()->with(['error' => 'Something Went Wrong']);
+            return redirect()->back()->with(['message' => 'Something Went Wrong']);
         }
     }
 
@@ -83,6 +83,6 @@ class ReviewController extends Controller
     {
         $review = Review::findOrFail($id);
         $review->delete();
-        return redirect()->route('admin.viewReviews')->with('success', 'Review deleted successfully');
+        return redirect()->route('admin.viewReviews')->with('message', 'Review deleted successfully');
     }
 }

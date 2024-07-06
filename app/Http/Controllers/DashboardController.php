@@ -4,23 +4,27 @@ namespace App\Http\Controllers;
 
 //use App\Models\Permission;
 
-
-use Spatie\Permission\Models\Permission;
+use App\Models\Gallery;
+use App\Models\Project;
+use App\Models\Review;
 use App\Models\Subscription;
-use App\Models\User;
-use Illuminate\Http\Request;
-use Spatie\Permission\Models\Role;
+
 
 class DashboardController extends Controller
 {
     public function dashboard()
     {
-        $totalUsers = User::all();
         $totalSubscriptions = Subscription::all();
+        $totalProjects = Project::all();
+        $totalGalleries = Gallery::all();
+        $totalTestimonials = Review::all();
+
 
         return view('admin.dashboard.dashboard', [
-            'totalUsers' => count($totalUsers),
             'totalSubscriptions' => count($totalSubscriptions),
+            'totalProjects' => count($totalProjects),
+            'totalGalleries' => count($totalGalleries),
+            'totalTestimonials' => count($totalTestimonials),
 
         ]);
     }
