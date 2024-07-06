@@ -89,6 +89,7 @@
                                                             class="text-white font-18 font-weight-300">{!! $project->description !!}</a>
                                                     </h2>
 
+
                                                 </div>
                                             </div>
                                         </div>
