@@ -44,12 +44,12 @@
                                     <div class="wt-img-effect ">
                                         <img src="{{ asset(json_decode($project->image, true)[0]) }}" alt="">
                                         <div class="overlay-bx-2 ">
-                                            <div class="line-amiation  p-a40">
-                                                <div class="text-white">
-                                                    <h2><a href="#"
-                                                            class="text-white font-18 font-weight-300">{!! $project->description !!}</a>
-                                                    </h2>
-
+                                            <div class="line-amiation">
+                                                <div class="text-white  font-weight-300 p-a40">
+                                                    <h2 class="text-white font-20 letter-spacing-4 text-uppercase">{{ $project->name }}</h2>
+                                                    <p>
+                                                        {!! $project->description !!}
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>

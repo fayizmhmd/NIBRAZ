@@ -23,7 +23,7 @@ class FrontEndController extends Controller
 
 
     public function Gallery(){
-        $galleries = Gallery::all();
+        $galleries =  Gallery::where('is_active', 1)->get();
         return view('frontend.gallery',compact('galleries'));
     }
 
