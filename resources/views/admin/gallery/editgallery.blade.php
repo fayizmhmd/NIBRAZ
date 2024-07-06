@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 <form action="{{ route('admin.updateGallery', $galleries->id) }}" method="POST" id="myForm" enctype="multipart/form-data">
-    
+
     @csrf
         <div class='form-group row mb-4 align-middle'>
             <label class=" col-lg-3 required form-label">Name</label>
@@ -13,12 +13,12 @@
                     required />
             </div>
         </div>
-      
+
 
         <div class='form-group row mb-4 align-middle'>
             <label class="col-lg-3 required form-label">Description</label>
             <div class="col-lg-9 mb-3">
-                <textarea class="form-control" name="content" id="editor" cols="30" rows="10">{{ $galleries->description }}</textarea>
+                <textarea class="form-control" name="editordata" id="summernote" cols="30" rows="10">{{ $galleries->description }}</textarea>
             </div>
         </div>
 

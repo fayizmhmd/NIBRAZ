@@ -29,7 +29,7 @@ class ProjectController extends Controller
         $project->name         =   $request->name;
         $project->seo = $request->seo;
 
-        $project->description = $request->content;
+        $project->description = $request->editordata;
 
         $images = [];
         if ($request->file('images')) {
@@ -61,7 +61,7 @@ class ProjectController extends Controller
         $project->name         =   $request->name;
         $project->seo = $request->seo;
 
-        $project->description = $request->content;
+        $project->description = $request->editordata;
 
         $images = [];
         if ($request->file('images')) {
