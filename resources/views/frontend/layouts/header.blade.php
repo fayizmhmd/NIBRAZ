@@ -8,13 +8,9 @@
 	<!-- META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="" />
-
+ 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/NIBRAZ ONLY fav.png" type="image/x-icon" />
+    <link rel="icon" href="./NibrazImages/Nibraz-fav.png" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="images/NIBRAZ ONLY fav.png" />
 
     <!-- PAGE TITLE HERE -->
@@ -22,6 +18,19 @@
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Nibraz Builders LLC - Premier architectural firm specializing in innovative interior design and development. We transform spaces with creativity and expertise, delivering top-tier solutions for all your architectural needs.">
+
+    <meta name="keywords" content="Nibraz Builders LLC, architectural firm, interior design, space transformation, architectural solutions, innovative design, development, architecture, building design, construction, creative architecture">
+
+    <meta name="author" content="Nibraz Builders LLC">
+
+
+    <meta property="og:title" content="Nibraz Builders LLC - Premier Architectural Firm">
+    <meta property="og:description" content="Nibraz Builders LLC specializes in innovative interior design and development. Transforming spaces with  creativity and expertise.">
+    <meta property="og:image" content="Nibraz Builders LLC - Premier Architectural Firm">
+    <meta property="og:url" content="./NibrazImages/nibraz-logo.jpg">
+    <meta property="og:type" content="website">
 
 
 

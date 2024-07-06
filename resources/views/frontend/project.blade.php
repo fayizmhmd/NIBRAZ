@@ -44,6 +44,13 @@
                                     <img src="{{ asset(json_decode($project->image, true)[0]) }}" alt="">
                                     <div class="overlay-bx-2 ">
                                         <div class="line-amiation  p-a40">
+
+                                            <div class="text-white">
+                                                <h2><a href="#"
+                                                        class="text-white font-18 font-weight-300">{!! $project->name !!}</a>
+                                                </h2>
+
+                                            </div>
                                             <div class="text-white">
                                                 <h2><a href="#"
                                                         class="text-white font-18 font-weight-300">{!! $project->description !!}</a>

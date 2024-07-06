@@ -138,7 +138,7 @@
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[5,5,5,5]"
 
-                        style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A design isn't finished until someone is using it. </div>
+                        style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 20px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A design isn't finished until someone is using it. </div>
 
                     <!-- LAYER NR. 3  button-->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -356,11 +356,11 @@
                             <div class="col-xl-6 col-lg-5 col-md-12">
                                 <div class="wt-left-part">
                                     <div class="text-uppercase text-black">
-                                        <span class="font-30 font-weight-300 d-block m-b10">Wo we are </span>
+                                        <span class="font-30 font-weight-300 d-block m-b10">Who we are </span>
                                         <h2 class="font-40">
                                             WE ARE A CREATIVE ARCHITECTURAL FIRM
                                         </h2>
-                                        <p>We are a creative architectural firm dedicated to crafting innovative and sustainable designs that inspire. With a passion for excellence, we transform ideas into spaces that enhance lives and communities.
+                                        <p>We are a creative architectural firm dedicated to crafting innovative and sustainable designs that inspire With a passion for excellence, we transform ideas into spaces that enhance lives and communities.
                                         </p>
                                     </div>
                                 </div>
@@ -376,7 +376,7 @@
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                     	<div class="carousel-line">
                                                               <h2 class="font-28 font-weight-400 m-b10">Mahalakshmi Complex</h2>
-                                                              <p class="m-b0">MMahalakshmi Complex, designed by Nirbaz Architectural Firm, stands as a premier commercial hub in Perinthalmanna, showcasing a blend of modern aesthetics and functional spaces for diverse businesses.
+                                                              <p class="m-b0">Mahalakshmi Complex, designed by Nirbaz Architectural Firm, stands as a premier commercial hub in Perinthalmanna, showcasing a blend of modern aesthetics and functional spaces for diverse businesses.
                                                               </p>
                                                           </div>
                                                       </div>
@@ -391,7 +391,7 @@
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                     	<div class="carousel-line">
                                                               <h2 class="font-28 font-weight-400 m-b10">City Centre Mall</h2>
-                                                              <p class="m-b0">City Centre Mall, designed by Nirbaz Architectural Firm, is a vibrant shopping destination in Perinthalmanna, featuring a wide array of retail stores, food courts, and entertainment option
+                                                              <p class="m-b0">City Centre Mall, designed by Nirbaz Architectural Firm, is a vibrant shopping destination in Perinthalmanna, featuring a wide array of retail stores, food courts, and  option
                                                               </p>
                                                           </div>
                                                       </div>
@@ -406,7 +406,7 @@
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                     	<div class="carousel-line">
                                                               <h2 class="font-28 font-weight-400 m-b10">KPM Complex</h2>
-                                                              <p class="m-b0">KPM Complex, designed by Nirbaz Architectural Firm, is a multifaceted commercial space in Perinthalmanna, housing various businesses and services that cater to the community's diverse needs
+                                                              <p class="m-b0">KPM Complex, designed by Nirbaz Architectural Firm, is a multifaceted commercial space in Perinthalmanna, housing various businesses and services that catering to the community's diverse needs
                                                               </p>
                                                           </div>
                                                       </div>
@@ -458,7 +458,6 @@
                                 </h2>
                                 <p> We blend aesthetics with functionality to deliver visionary building and design solutions</p>
                                 <p class="text-lowercase">From concept to construction, we specialize in creating spaces that harmonize innovation, sustainability, and client vision.
-                                    give a much better dsecription.
                                 </p>
 
 
@@ -471,31 +470,31 @@
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                                <a href="#"><img src="{{asset('assets/frontend/images/gallery/pic1.jpg')}}" alt=""></a>
+                                                <img src="{{asset('assets/frontend/images/gallery/pic1.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                                <a href="#"><img src="{{asset('assets/frontend/images/gallery/pic2.jpg')}}" alt=""></a>
+                                               <img src="{{asset('assets/frontend/images/gallery/pic2.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="owl-img wt-img-effect zoom-slow">
-                                                <a href="#"><img src="{{asset('assets/frontend/images/gallery/pic3.jpg')}}" alt=""></a>
+                                               <img src="{{asset('assets/frontend/images/gallery/pic3.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                                <a href="#"><img src="{{asset('assets/frontend/images/gallery/pic4.jpg')}}" alt=""></a>
+                                              <img src="{{asset('assets/frontend/images/gallery/pic4.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                                <a href="#"><img src="{{asset('assets/frontend/images/gallery/pic5.jpg')}}" alt=""></a>
+                                               <img src="{{asset('assets/frontend/images/gallery/pic5.jpg')}}" alt="">
                                             </div>
                                         </div>
                                    </div>
@@ -711,7 +710,8 @@
                                             <div class="item">
                                                 <div class="ow-client-logo">
                                                     <div class="client-logo client-logo-media">
-                                                    <a href="#"><img src="{{ $logo->image }}" alt=""></a></div>
+                                                    <img src="{{ $logo->image }}" alt="">
+                                                                        </div>
                                                 </div>
                                             </div>
                                             @endforeach
