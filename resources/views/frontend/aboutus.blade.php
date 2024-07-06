@@ -246,7 +246,7 @@
                             <a class="nav-link active wt-icon-box-wraper right p-a20 text-white" href="#tab1" data-bs-toggle="tab">
                                 <div class="icon-content">
                                     <h4 class="wt-tilte text-uppercase">Master Plans</h4>
-                                    <p>Master plans are strategic documents outlining development goals, integrating urban design, infrastructure, land use, and community needs to create cohesive, sustainable environments for future growth. </p>
+                                    <p style="text-align: justify !important;">Master plans are strategic documents outlining development goals, integrating urban design, infrastructure, land use, and community needs to create cohesive, sustainable environments for future growth. </p>
                                 </div>
                             </a>
                         </div>
@@ -255,7 +255,7 @@
                             <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab2" data-bs-toggle="tab">
                                 <div class="icon-content">
                                     <h4 class="wt-tilte text-uppercase">Architecture</h4>
-                                    <p>
+                                    <p style="text-align: justify !important;">
                                         Architecture encompasses the art and science of designing and constructing buildings and other physical structures, focusing on aesthetic, functional, and environmental considerations to create spaces that serve human needs and aspirations</p>
                                 </div>
                             </a>
@@ -266,7 +266,7 @@
                             <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab3" data-bs-toggle="tab">
                                 <div class="icon-content">
                                     <h4 class="wt-tilte text-uppercase">Landscaping</h4>
-                                    <p>Landscaping involves the planning, design, and maintenance of outdoor spaces, including gardens, parks, and urban green areas. It focuses on enhancing the natural environment through the strategic placement of plants, trees, paths, and structures to create aesthetically pleasing and functional outdoor spaces.</p>
+                                    <p style="text-align: justify !important;">Landscaping involves the planning, design, and maintenance of outdoor spaces, including gardens, parks, and urban green areas. It focuses on enhancing the natural environment through the strategic placement of plants, trees, paths, and structures to create aesthetically pleasing and functional outdoor spaces.</p>
                                 </div>
                             </a>
                         </div>
@@ -333,7 +333,7 @@
                             <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab4" data-bs-toggle="tab">
                                 <div class="icon-content">
                                     <h4 class="wt-tilte text-uppercase">Interior</h4>
-                                    <p>Interior design enhances building interiors through furniture, color, lighting, and materials, creating functional and aesthetically pleasing spaces tailored to occupants' needs. </p>
+                                    <p style="text-align: justify !important;">Interior design enhances building interiors through furniture, color, lighting, and materials, creating functional and aesthetically pleasing spaces tailored to occupants' needs. </p>
                                 </div>
                             </a>
                         </div>
@@ -342,7 +342,7 @@
                             <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab5" data-bs-toggle="tab">
                                 <div class="icon-content">
                                     <h4 class="wt-tilte text-uppercase">Construction</h4>
-                                    <p>Construction involves the process of building or assembling infrastructure and buildings, encompassing planning, design, financing, and execution, to create physical structures that meet specific functional and aesthetic requirements.</p>
+                                    <p style="text-align: justify !important;">Construction involves the process of building or assembling infrastructure and buildings, encompassing planning, design, financing, and execution, to create physical structures that meet specific functional and aesthetic requirements.</p>
                                 </div>
                             </a>
                         </div>
@@ -351,7 +351,7 @@
                             <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab6" data-bs-toggle="tab">
                                 <div class="icon-content">
                                     <h4 class="wt-tilte text-uppercase">Urban Designs</h4>
-                                    <p>Urban design plans and shapes cities to create functional, attractive, and sustainable environments, integrating architecture, infrastructure, public spaces, and transportation to enhance quality of life and promote economic and social well-being.</p>
+                                    <p style="text-align: justify !important;"> Urban design plans and shapes cities to create functional, attractive, and sustainable environments, integrating architecture, infrastructure, public spaces, and transportation to enhance quality of life and promote economic and social well-being.</p>
                                 </div>
                             </a>
                         </div>
@@ -388,7 +388,7 @@
                         <div class="wt-box our-story-detail">
                             <h3 class="text-uppercase">2011-12</h3>
                             <h2 class="text-uppercase">Park Boathouse</h2>
-                            <p>
+                            <p  style="text-align: justify !important;">
                                 The park boathouse harmoniously integrates functional amenities with natural surroundings, emphasizing practicality and aesthetic appeal to enhance the waterfront recreational experience. </p>
                         </div>
                     </div>
@@ -403,7 +403,7 @@
                         <div class="wt-box our-story-detail">
                             <h3 class="text-uppercase">2013-14</h3>
                             <h2 class="text-uppercase">Museum Expansion</h2>
-                            <p>
+                            <p style="text-align: justify !important;">
                                 The museum expansion project aims to enhance exhibit space and visitor amenities while preserving and complementing the original architecture, accommodating growing collections and improving visitor experiences.</p>
                         </div>
                     </div>
@@ -419,7 +419,7 @@
                         <div class="wt-box our-story-detail">
                             <h3 class="text-uppercase">2015-16</h3>
                             <h2 class="text-uppercase">Eisenhower Memoria</h2>
-                            <p>The Eisenhower Memorial honors President Dwight D. Eisenhower's legacy through a design that blends architecture, landscape, and public art to create a contemplative and educational space for visitors to reflect on his contributions to the nation.</p>
+                            <p style="text-align: justify !important;">The Eisenhower Memorial honors President Dwight D. Eisenhower's legacy through a design that blends architecture, landscape, and public art to create a contemplative and educational space for visitors to reflect on his contributions to the nation.</p>
                         </div>
                     </div>
                 </div>
@@ -433,7 +433,7 @@
                         <div class="wt-box our-story-detail">
                             <h3 class="text-uppercase">2017-18</h3>
                             <h2 class="text-uppercase">Columbia Sport Center</h2>
-                            <p>The Columbia Sport Center is a state-of-the-art facility designed to accommodate a variety of sports and recreational activities, featuring modern architecture that enhances functionality and provides a dynamic space for athletes and enthusiasts alike.</p>
+                            <p style="text-align: justify !important;">The Columbia Sport Center is a state-of-the-art facility designed to accommodate a variety of sports and recreational activities, featuring modern architecture that enhances functionality and provides a dynamic space for athletes and enthusiasts alike.</p>
                         </div>
                     </div>
 

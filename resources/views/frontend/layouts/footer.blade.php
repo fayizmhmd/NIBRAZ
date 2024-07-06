@@ -70,6 +70,9 @@
 <!-- REVOLUTION SLIDER SCRIPT FILES -->
 <script  src="{{asset('assets/frontend/js/rev-script-2.js')}}"></script>
 
+
+
+
 </body>
 
 
