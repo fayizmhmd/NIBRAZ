@@ -112,7 +112,7 @@
                             </li>
                         @endcan
 
-                        @can('all_users')
+                        {{-- @can('all_users')
                             <li class="nk-menu-item ">
                                 <a href="{{ route('admin.viewsettings') }}" class="nk-menu-link">
                                     <span class="nk-menu-icon">
@@ -121,7 +121,7 @@
                                     <span class="nk-menu-text">Settings</span>
                                 </a>
                             </li>
-                        @endcan
+                        @endcan --}}
 
                         @can('plans')
                         {{-- <li class="nk-menu-item">

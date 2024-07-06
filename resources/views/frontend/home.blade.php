@@ -376,7 +376,7 @@
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                     	<div class="carousel-line">
                                                               <h2 class="font-28 font-weight-400 m-b10">Mahalakshmi Complex</h2>
-                                                              <p class="m-b0">Mahalakshmi Complex, designed by Nirbaz Architectural Firm, stands as a premier commercial hub in Perinthalmanna, showcasing a blend of modern aesthetics and functional spaces for diverse businesses.
+                                                              <p class="m-b0">Mahalakshmi Complex, designed by Nibraz Architectural Firm, stands as a premier commercial hub in Perinthalmanna, showcasing a blend of modern aesthetics and functional spaces for diverse businesses.
                                                               </p>
                                                           </div>
                                                       </div>
@@ -391,7 +391,7 @@
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                     	<div class="carousel-line">
                                                               <h2 class="font-28 font-weight-400 m-b10">City Centre Mall</h2>
-                                                              <p class="m-b0">City Centre Mall, designed by Nirbaz Architectural Firm, is a vibrant shopping destination in Perinthalmanna, featuring a wide array of retail stores, food courts, and  option
+                                                              <p class="m-b0">City Centre Mall, designed by Nibraz Architectural Firm, is a vibrant shopping destination in Perinthalmanna, featuring a wide array of retail stores, food courts, and  option
                                                               </p>
                                                           </div>
                                                       </div>
@@ -406,7 +406,7 @@
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                     	<div class="carousel-line">
                                                               <h2 class="font-28 font-weight-400 m-b10">KPM Complex</h2>
-                                                              <p class="m-b0">KPM Complex, designed by Nirbaz Architectural Firm, is a multifaceted commercial space in Perinthalmanna, housing various businesses and services that catering to the community's diverse needs
+                                                              <p class="m-b0">KPM Complex, designed by Nibraz Architectural Firm, is a multifaceted commercial space in Perinthalmanna, housing various businesses and services that catering to the community's diverse needs
                                                               </p>
                                                           </div>
                                                       </div>
@@ -421,7 +421,7 @@
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                     	<div class="carousel-line">
                                                               <h2 class="font-28 font-weight-400 m-b10">Anvar Shopping Complex</h2>
-                                                              <p class="m-b0">Anvar Shopping Complex, designed by Nirbaz Architectural Firm, is a bustling commercial hub in Perinthalmanna, offering a wide range of shops and services to meet the community's needs.
+                                                              <p class="m-b0">Anvar Shopping Complex, designed by Nibraz Architectural Firm, is a bustling commercial hub in Perinthalmanna, offering a wide range of shops and services to meet the community's needs.
                                                               </p>
                                                           </div>
                                                       </div>
@@ -583,7 +583,7 @@
                                     <h2 class="font-50">
                                         Interesting Facts
                                     </h2>
-                                    <p class="font-18 font-weight-300">Nirbaz Builders combines cutting-edge design with sustainable practices, crafting community-centric spaces that redefine modern living.
+                                    <p class="font-18 font-weight-300">Nibraz Builders combines cutting-edge design with sustainable practices, crafting community-centric spaces that redefine modern living.
                                     </p>
                                 </div>
                             </div>
