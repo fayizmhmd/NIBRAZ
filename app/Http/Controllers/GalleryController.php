@@ -26,7 +26,7 @@ class GalleryController extends Controller
 
         $gallery                     = new Gallery();
         $gallery->name              = $request->name;
-        $gallery->description        = $request->content;
+        $gallery->description        = $request->editordata;
 
         $images = [];
 
@@ -59,7 +59,7 @@ class GalleryController extends Controller
         $gallery->name         =   $request->name;
 
 
-        $gallery->description = $request->content;
+        $gallery->description = $request->editordata;
 
         $images = [];
         if ($request->file('images')) {
