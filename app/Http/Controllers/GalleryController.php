@@ -57,7 +57,7 @@ class GalleryController extends Controller
     {
         $gallery = Gallery::find($id);
         $gallery->name         =   $request->name;
-       
+
 
         $gallery->description = $request->content;
 
@@ -91,7 +91,7 @@ class GalleryController extends Controller
 
             return redirect()->route('admin.viewGallery')->with('message', 'program deleted successfully');
         } else {
-            return redirect()->route('admin.viewGallery')->with('error', 'program not found');
+            return redirect()->route('admin.viewGallery')->with('message', 'program not found');
         }
     }
 
@@ -104,7 +104,7 @@ class GalleryController extends Controller
             $gallery->save();
             return redirect()->back()->with(['message' => 'Status Changed Successfully']);
         } else {
-            return redirect()->back()->with(['error' => 'Something Went Wrong']);
+            return redirect()->back()->with(['message' => 'Something Went Wrong']);
         }
     }
 
