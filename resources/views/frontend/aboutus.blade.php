@@ -245,7 +245,7 @@
                         <div class="nav-item">
                             <a class="nav-link active wt-icon-box-wraper right p-a20 text-white" href="#tab1" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 class="wt-tilte text-uppercase">Master Plans</h4>
+                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Master Plans</h4>
                                     <p style="text-align: justify !important;">Master plans are strategic documents outlining development goals, integrating urban design, infrastructure, land use, and community needs to create cohesive, sustainable environments for future growth. </p>
                                 </div>
                             </a>
@@ -254,7 +254,7 @@
                         <div class="nav-item">
                             <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab2" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 class="wt-tilte text-uppercase">Architecture</h4>
+                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Architecture</h4>
                                     <p style="text-align: justify !important;">
                                         Architecture encompasses the art and science of designing and constructing buildings and other physical structures, focusing on aesthetic, functional, and environmental considerations to create spaces that serve human needs and aspirations</p>
                                 </div>
@@ -265,7 +265,7 @@
                         <div class="nav-item">
                             <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab3" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 class="wt-tilte text-uppercase">Landscaping</h4>
+                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Landscaping</h4>
                                     <p style="text-align: justify !important;">Landscaping involves the planning, design, and maintenance of outdoor spaces, including gardens, parks, and urban green areas. It focuses on enhancing the natural environment through the strategic placement of plants, trees, paths, and structures to create aesthetically pleasing and functional outdoor spaces.</p>
                                 </div>
                             </a>

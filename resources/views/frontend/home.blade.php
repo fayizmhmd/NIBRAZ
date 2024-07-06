@@ -138,7 +138,7 @@
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[5,5,5,5]"
 
-                        style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 20px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A design isn't finished until someone is using it. </div>
+                        style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 16px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A design isn't finished until someone is using it. </div>
 
                     <!-- LAYER NR. 3  button-->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -217,7 +217,7 @@
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[5,5,5,5]"
 
-                        style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #000; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A whole different kind of architectural firm.</div>
+                        style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 600; color: #000; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A whole different kind of architectural firm.</div>
 
                     <!-- LAYER NR. 3  button-->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
