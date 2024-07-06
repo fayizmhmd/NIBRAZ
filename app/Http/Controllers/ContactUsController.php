@@ -22,8 +22,8 @@ class ContactUsController extends Controller
 // dd($request->all());
         $mail                     = new MailList();
         $mail->name              = $request->name;
-        $mail->email              = $request->name;
-        $mail->phone              = $request->name;
+        $mail->email              = $request->email;
+        $mail->phone              = $request->phone;
         $mail->message              = $request->message;
 
         $mail->save();
