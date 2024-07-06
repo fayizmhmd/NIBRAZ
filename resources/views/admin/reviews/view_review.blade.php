@@ -3,6 +3,14 @@
     Reviews
 @endsection
 @section('content')
+
+@if (session('message'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        {{ session('message') }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+@endif
+
 <div class="nk-content-body">
     <div class="nk-block-head nk-block-head-sm">
         <div class="nk-block-between">

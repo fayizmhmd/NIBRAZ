@@ -36,30 +36,73 @@
                             @php
                                 $i++;
                                 $class = ($i == 2 ) ? 'col-lg-6' : 'col-lg-3';
-                                
+
                             @endphp
 
-                            <div class="masonry-item {{ $class }} col-md-6 m-b30">
-                                <div class="wt-img-effect ">
-                                    <img src="{{ asset(json_decode($project->image, true)[0]) }}" alt="">
-                                    <div class="overlay-bx-2 ">
-                                        <div class="line-amiation  p-a40">
-                                            <div class="text-white">
-                                                <h2><a href="#"
-                                                        class="text-white font-18 font-weight-300">{!! $project->description !!}</a>
-                                                </h2>
+                            @if($i <= 5)
+                                <div class="masonry-item {{ $class }} col-md-6 m-b30">
+                                    <div class="wt-img-effect ">
+                                        <img src="{{ asset(json_decode($project->image, true)[0]) }}" alt="">
+                                        <div class="overlay-bx-2 ">
+                                            <div class="line-amiation  p-a40">
+                                                <div class="text-white">
+                                                    <h2><a href="#"
+                                                            class="text-white font-18 font-weight-300">{!! $project->description !!}</a>
+                                                    </h2>
 
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            @endif
                         @endforeach
 
                     </div>
 
                 </div>
             </div>
+
+
+            <div class="container-fluid">
+                <div class="portfolio-wrap mfp-gallery work-masonry clearfix">
+
+                    <div class="row">
+                        @php
+                            $i = 0;
+                        @endphp
+                        @foreach ($projects as $project)
+                            @php
+                                $i++;
+
+
+                            @endphp
+
+                            @if($i > 5)
+                                <div class="masonry-item col-lg-3 col-md-6 m-b30">
+                                    <div class="wt-img-effect ">
+                                        <img src="{{ asset(json_decode($project->image, true)[0]) }}" alt="">
+                                        <div class="overlay-bx-2 ">
+                                            <div class="line-amiation  p-a40">
+                                                <div class="text-white">
+                                                    <h2><a href="#"
+                                                            class="text-white font-18 font-weight-300">{!! $project->description !!}</a>
+                                                    </h2>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
+                        @endforeach
+
+                    </div>
+
+                </div>
+            </div>
+
+
             <!-- GALLERY CONTENT END -->
         </div>
         <!-- SECTION CONTENT END -->
