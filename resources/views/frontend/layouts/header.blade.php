@@ -11,7 +11,7 @@
  
     <!-- FAVICONS ICON -->
     <link rel="icon" href="./NibrazImages/Nibraz-fav.png" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/NIBRAZ ONLY fav.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="./NibrazImages/Nibraz-fav.png" />
 
     <!-- PAGE TITLE HERE -->
     <title>@yield('title') | Nirbaz Builders</title>
@@ -28,8 +28,8 @@
 
     <meta property="og:title" content="Nibraz Builders LLC - Premier Architectural Firm">
     <meta property="og:description" content="Nibraz Builders LLC specializes in innovative interior design and development. Transforming spaces with  creativity and expertise.">
-    <meta property="og:image" content="Nibraz Builders LLC - Premier Architectural Firm">
-    <meta property="og:url" content="./NibrazImages/nibraz-logo.jpg">
+    <meta property="og:image" content="./NibrazImages/nibraz-logo.jpg">
+    <meta property="og:url" content="https://nibrasbuilders.howincloud.com">
     <meta property="og:type" content="website">
 
 

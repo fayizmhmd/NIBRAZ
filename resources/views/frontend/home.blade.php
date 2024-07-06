@@ -581,7 +581,7 @@
                         		<div class="text-white text-uppercase">
                                     <span class="font-40 font-weight-300">Some</span>
                                     <h2 class="font-50">
-                                        Intresting Facts
+                                        Interesting Facts
                                     </h2>
                                     <p class="font-18 font-weight-300">Nirbaz Builders combines cutting-edge design with sustainable practices, crafting community-centric spaces that redefine modern living.
                                     </p>
