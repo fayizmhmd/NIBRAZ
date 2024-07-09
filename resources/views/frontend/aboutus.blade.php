@@ -34,31 +34,31 @@
                                 <!-- COLUMNS 1 -->
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic2.jpg') }}" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/nib-images/new/Untitled design.png') }}" alt=""></a>
                                     </div>
                                 </div>
-                                <!-- COLUMNS 2 -->
+
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic3.jpg') }}" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/nib-images/new/Untitled design.jpg') }}" alt=""></a>
                                     </div>
                                 </div>
-                                <!-- COLUMNS 3 -->
+
                                 <div class="item">
                                     <div class="owl-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic4.jpg') }}" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/nib-images/new/Untitled design (3).jpg') }}" alt=""></a>
                                     </div>
                                 </div>
-                                <!-- COLUMNS 4 -->
+
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic5.jpg') }}" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/nib-images/new/Untitled design (2).jpg') }}" alt=""></a>
                                     </div>
                                 </div>
-                                <!-- COLUMNS 5 -->
+
                                 <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
-                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/images/gallery/portrait/pic6.jpg') }}" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/nib-images/new/Untitled design (1).jpg') }}" alt=""></a>
                                     </div>
                                 </div>
                            </div>
@@ -103,7 +103,7 @@
                                     <img src="{{ asset('assets/frontend/nib-images/04/Director-Nibraz.jpg') }}" alt="">
                                 </div>
                                 <div class="wt-team-info text-center p-lr10 p-tb20 bg-white">
-                                    <h2 class="wt-team-title text-uppercase text-black font-32 font-weight-500">Robert willson</h2>
+                                    <h2 class="wt-team-title text-uppercase text-black font-32 font-weight-500">Salahudheen</h2>
                                     <p class="font-22">Director Nibraz</p>
                                     <ul class="social-icons social-md social-square social-dark">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
@@ -279,7 +279,8 @@
                             <div id="tab1" class="tab-pane active show">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20 ">
-                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic1.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/06/ALIANCE-AUDITORIUM-THUVVUR.jpg') }}" alt="">
+
                                     </div>
                                 </div>
                             </div>
@@ -287,7 +288,7 @@
                             <div id="tab2" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic2.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/06/BASHEER-MASH-PMNA-.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +296,7 @@
                             <div id="tab3" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic3.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/06/CHANTHAPDI-MASJID-3.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -303,7 +304,7 @@
                             <div id="tab4" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic4.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/06/CHUNGAM-ACP-WORK.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -311,7 +312,7 @@
                             <div id="tab5" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic5.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/06/FAISAL-VENGOOR-2.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -319,7 +320,7 @@
                             <div id="tab6" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/images/gallery/portrait/pic6.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/06/RUGMINI-CHECHI.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -381,30 +382,31 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="{{ asset('assets/frontend/images/gallery/pic1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/nib-images/04/velliyarnew.png') }}" alt="" style="object-fit: cover">
+
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
                         <div class="wt-box our-story-detail">
-                            <h3 class="text-uppercase">2011-12</h3>
-                            <h2 class="text-uppercase">Park Boathouse</h2>
+
+                            <h2 class="text-uppercase">Velliyar Mall</h2>
                             <p  style="text-align: justify !important;">
-                                The park boathouse harmoniously integrates functional amenities with natural surroundings, emphasizing practicality and aesthetic appeal to enhance the waterfront recreational experience. </p>
+                                Velliyarmall, crafted by Nibraz Architectures in Perinthalmanna, exemplifies contemporary architectural excellence, offering a blend of functionality and aesthetic appeal. </p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="{{ asset('assets/frontend/images/gallery/pic3.jpg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/nib-images/new/1.png') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
                         <div class="wt-box our-story-detail">
-                            <h3 class="text-uppercase">2013-14</h3>
-                            <h2 class="text-uppercase">Museum Expansion</h2>
+
+                            <h2 class="text-uppercase">Rugmini Resedence Home</h2>
                             <p style="text-align: justify !important;">
-                                The museum expansion project aims to enhance exhibit space and visitor amenities while preserving and complementing the original architecture, accommodating growing collections and improving visitor experiences.</p>
+                                The Rugmini Residence Home, designed by Nibraz Architecture, combines contemporary aesthetics with cozy living spaces, providing an ideal environment for modern family life.</p>
                         </div>
                     </div>
 
@@ -412,28 +414,28 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="{{ asset('assets/frontend/images/gallery/pic4.jpg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/nib-images/new/2.png') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
                         <div class="wt-box our-story-detail">
-                            <h3 class="text-uppercase">2015-16</h3>
-                            <h2 class="text-uppercase">Eisenhower Memoria</h2>
-                            <p style="text-align: justify !important;">The Eisenhower Memorial honors President Dwight D. Eisenhower's legacy through a design that blends architecture, landscape, and public art to create a contemplative and educational space for visitors to reflect on his contributions to the nation.</p>
+
+                            <h2 class="text-uppercase">Savion Mall</h2>
+                            <p style="text-align: justify !important;">Savion Mall, a premier shopping complex designed by Nibraz Architecture, features a modern layout and diverse retail spaces, offering a dynamic shopping experience.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="{{ asset('assets/frontend/images/gallery/pic5.jpg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/nib-images/new/3.png') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 our-story-detail-wrap">
                         <div class="wt-box our-story-detail">
-                            <h3 class="text-uppercase">2017-18</h3>
-                            <h2 class="text-uppercase">Columbia Sport Center</h2>
-                            <p style="text-align: justify !important;">The Columbia Sport Center is a state-of-the-art facility designed to accommodate a variety of sports and recreational activities, featuring modern architecture that enhances functionality and provides a dynamic space for athletes and enthusiasts alike.</p>
+
+                            <h2 class="text-uppercase">House in Mulliyakkurssi</h2>
+                            <p style="text-align: justify !important;">The house in Mulliyakurssi, crafted by Nibraz Architecture, embodies contemporary design and comfort, creating a perfect sanctuary for its residents.</p>
                         </div>
                     </div>
 

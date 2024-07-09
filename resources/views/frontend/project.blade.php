@@ -118,7 +118,7 @@
 
                <div class="masonry-item cat-1 col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30">
                    <div class="wt-img-effect ">
-                       <img  src="{{ asset( json_decode($project->image, true)[0]) }}" alt="" style="width: 1089px; height: 450px;">
+                       <img  src="{{ asset( json_decode($project->image, true)[0]) }}" alt="" style="width: 1089px; height: 450px; object-fit: cover">
                        <div class="overlay-bx-2 ">
                            <div class="line-amiation">
                                <div class="text-white  font-weight-300 p-a40">
