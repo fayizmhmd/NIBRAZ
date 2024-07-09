@@ -25,7 +25,7 @@
         <!-- SECTION CONTENT -->
         <div class="section-full p-t80 p-b50">
             <!-- GALLERY CONTENT START -->
-            <div class="container-fluid">
+            {{-- <div class="container-fluid">
                 <div class="portfolio-wrap mfp-gallery work-masonry clearfix">
 
                     <div class="row">
@@ -81,13 +81,12 @@
                             @if($i > 5)
                                 <div class="masonry-item col-lg-3 col-md-6 m-b30">
                                     <div class="wt-img-effect ">
-                                        <img src="{{ asset(json_decode($project->image, true)[0]) }}" alt="">
+                                        <img src="{{ asset(json_decode($project->image, true)[0]) }}" alt="" style="width: 1089px; height: 450px; object-fit: cover">
                                         <div class="overlay-bx-2 ">
                                             <div class="line-amiation  p-a40">
                                                 <div class="text-white">
-                                                    <h2><a href="#"
-                                                            class="text-white font-18 font-weight-300">{!! $project->name !!}</a>
-                                                    </h2>
+                                                    <h2 class="text-white font-20 letter-spacing-4 text-uppercase">{{ $project->name }}</h2>
+
                                                 </div>
                                                 <div class="text-white">
                                                     <h2><a href="#"
@@ -105,8 +104,39 @@
 
                 </div>
             </div>
+ --}}
 
 
+
+
+
+ <div class="portfolio-wrap mfp-gallery work-grid clearfix">
+    <div class="container-fluid">
+          <div class="row">
+               <!-- COLUMNS 1 -->
+               @foreach ($projects as $project)
+
+               <div class="masonry-item cat-1 col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30">
+                   <div class="wt-img-effect ">
+                       <img  src="{{ asset( json_decode($project->image, true)[0]) }}" alt="" style="width: 1089px; height: 450px;">
+                       <div class="overlay-bx-2 ">
+                           <div class="line-amiation">
+                               <div class="text-white  font-weight-300 p-a40">
+                                   <h2 class="text-white font-20 letter-spacing-4 text-uppercase">{{ $project->name }}</h2>
+                                   <p>
+                                       {!! $project->description !!}
+                                   </p>
+                                   {{-- <a href="project-detail.html" class="v-button letter-spacing-4 font-12 text-uppercase p-l20">Read More</a> --}}
+                               </div>
+                           </div>
+                      </div>
+                   </div>
+               </div>
+               @endforeach
+
+           </div>
+       </div>
+   </div>
             <!-- GALLERY CONTENT END -->
         </div>
         <!-- SECTION CONTENT END -->

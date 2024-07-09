@@ -370,16 +370,15 @@
                             		<div class="owl-carousel carousel-hover home-carousel-2 owl-btn-vertical-center">
                                         <!-- COLUMNS 1 -->
                                         <div class="item">
-                                        	<div class="wt-box">
+                                            <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/images/projects/pic-1.jpg')}}" alt="">
+                                                    <img src="{{asset('assets/frontend/nib-images/04/City-Center-Chungam.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
-                                                    	<div class="carousel-line">
-                                                              <h2 class="font-28 font-weight-400 m-b10">Mahalakshmi Complex</h2>
-                                                              <p class="m-b0">Mahalakshmi Complex, designed by Nibraz Architectural Firm, stands as a premier commercial hub in Perinthalmanna, showcasing a blend of modern aesthetics and functional spaces for diverse businesses.
-                                                              </p>
-                                                          </div>
-                                                      </div>
+                                                        <div class="carousel-line">
+                                                            <h2 class="font-28 font-weight-400 m-b10">City Center Chungam</h2>
+                                                            <p class="m-b0">City Center Chungam, designed by Nibraz Architectural Firm, stands as a premier commercial hub in Chungam, showcasing a blend of modern aesthetics and functional spaces for diverse businesses.</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -387,14 +386,13 @@
                                         <div class="item">
                                             <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/images/projects/pic-2.jpg')}}" alt="">
+                                                    <img src="{{asset('assets/frontend/nib-images/04/Darul-Hikam.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
-                                                    	<div class="carousel-line">
-                                                              <h2 class="font-28 font-weight-400 m-b10">City Centre Mall</h2>
-                                                              <p class="m-b0">City Centre Mall, designed by Nibraz Architectural Firm, is a vibrant shopping destination in Perinthalmanna, featuring a wide array of retail stores, food courts, and  option
-                                                              </p>
-                                                          </div>
-                                                      </div>
+                                                        <div class="carousel-line">
+                                                            <h2 class="font-28 font-weight-400 m-b10">Darul Hikam</h2>
+                                                            <p class="m-b0">Darul Hikam, designed by Nibraz Architectural Firm, is a significant memorial building (Smaraka Soudham) in Perinthalmanna.</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -402,14 +400,13 @@
                                         <div class="item">
                                             <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/images/projects/pic-3.jpg')}}" alt="">
+                                                    <img src="{{asset('assets/frontend/nib-images/04/Juma-Masjid-Melattur.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
-                                                    	<div class="carousel-line">
-                                                              <h2 class="font-28 font-weight-400 m-b10">KPM Complex</h2>
-                                                              <p class="m-b0">KPM Complex, designed by Nibraz Architectural Firm, is a multifaceted commercial space in Perinthalmanna, housing various businesses and services that catering to the community's diverse needs
-                                                              </p>
-                                                          </div>
-                                                      </div>
+                                                        <div class="carousel-line">
+                                                            <h2 class="font-28 font-weight-400 m-b10">Juma Masjid Melattur</h2>
+                                                            <p class="m-b0">Juma Masjid Melattur, designed by Nibraz Architectural Firm, is a prominent mosque in Melattur, serving as a central place of worship and community gathering.</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -417,17 +414,17 @@
                                         <div class="item">
                                             <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/images/projects/pic-4.jpg')}}" alt="">
+                                                    <img src="{{asset('assets/frontend/nib-images/04/MSTM.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
-                                                    	<div class="carousel-line">
-                                                              <h2 class="font-28 font-weight-400 m-b10">Anvar Shopping Complex</h2>
-                                                              <p class="m-b0">Anvar Shopping Complex, designed by Nibraz Architectural Firm, is a bustling commercial hub in Perinthalmanna, offering a wide range of shops and services to meet the community's needs.
-                                                              </p>
-                                                          </div>
-                                                      </div>
+                                                        <div class="carousel-line">
+                                                            <h2 class="font-28 font-weight-400 m-b10">MSTM Arts and Science College</h2>
+                                                            <p class="m-b0">MSTM Arts and Science College, designed by Nibraz Architectural Firm, is a distinguished educational institution in Perinthalmanna, providing state-of-the-art facilities and a vibrant learning environment for students.</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+
                                         <!-- COLUMNS 5 -->
 
                                    </div>
@@ -470,31 +467,31 @@
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                                <img src="{{asset('assets/frontend/images/gallery/pic1.jpg')}}" alt="">
+                                                <img src="{{asset('assets/frontend/nib-images/04/nibraz-first-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                               <img src="{{asset('assets/frontend/images/gallery/pic2.jpg')}}" alt="">
+                                               <img src="{{asset('assets/frontend/nib-images/04/nibraz-fourth-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="owl-img wt-img-effect zoom-slow">
-                                               <img src="{{asset('assets/frontend/images/gallery/pic3.jpg')}}" alt="">
+                                               <img src="{{asset('assets/frontend/nib-images/04/nibraz-second-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                              <img src="{{asset('assets/frontend/images/gallery/pic4.jpg')}}" alt="">
+                                              <img src="{{asset('assets/frontend/nib-images/04/nibraz-third-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                               <img src="{{asset('assets/frontend/images/gallery/pic5.jpg')}}" alt="">
+                                               <img src="{{asset('assets/frontend/nib-images/04/Resedential-client-name-Abdul-gafoor-area-3750sqft.jpg')}}" alt="">
                                             </div>
                                         </div>
                                    </div>
@@ -543,7 +540,7 @@
 
                         <div class="item fadingcol building-col">
                             <div class="wt-img-effect ">
-                                <img  src="{{ asset( json_decode($project->image, true)[0]) }}" alt="" style="width: 1089px; height: 450px;">
+                                <img  src="{{ asset( json_decode($project->image, true)[0]) }}" alt="" style="width: 1089px; height: 450px; object-fit: cover">
                                 <div class="overlay-bx-2 ">
                                     <div class="line-amiation">
                                         <div class="text-white  font-weight-300 p-a40">
