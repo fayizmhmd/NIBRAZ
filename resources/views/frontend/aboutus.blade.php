@@ -100,11 +100,11 @@
                             <!-- TITLE END -->
                             <div class="wt-team-six large-pic">
                                 <div class="wt-team-media wt-thum-bx">
-                                    <img src="{{ asset('assets/frontend/images/our-team5/pic1.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/nib-images/04/Director-Nibraz.jpg') }}" alt="">
                                 </div>
                                 <div class="wt-team-info text-center p-lr10 p-tb20 bg-white">
                                     <h2 class="wt-team-title text-uppercase text-black font-32 font-weight-500">Robert willson</h2>
-                                    <p class="font-22">Co-manager associated</p>
+                                    <p class="font-22">Director Nibraz</p>
                                     <ul class="social-icons social-md social-square social-dark">
                                         <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                         <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>

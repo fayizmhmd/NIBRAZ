@@ -8,7 +8,7 @@
 	<!-- META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
- 
+
     <!-- FAVICONS ICON -->
     <link rel="icon" href="./NibrazImages/Nibraz-fav.png" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="./NibrazImages/Nibraz-fav.png" />
@@ -119,9 +119,9 @@
                                 </li>
 
 
-                                <li>
+                                {{-- <li>
                                     <a href="{{ asset('gallery') }}">Gallery</a>
-                                </li>
+                                </li> --}}
 
                                 <li>
 

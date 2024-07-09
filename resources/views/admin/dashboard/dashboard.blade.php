@@ -35,27 +35,7 @@
                     </div>
                 </div>
 
-                <div class="col-xxl-6 col-md-6">
-                    <div class="card h-100">
-                        <div class="nk-ecwg nk-ecwg3">
-                            <div class="card-inner">
-                                <div class="card-title-group">
-                                    <div class="card-title">
-                                        <h6 class="title">Galleries</h6>
-                                    </div>
-                                </div>
-                                <div class="data">
-                                    <div class="amount">{{ $totalGalleries }}</div>
-                                </div>
-                            </div>
-                            <div class="nk-ck-wrap mt-auto overflow-hidden rounded-bottom">
-                                <div class="nk-ecwg3-ck">
-                                    <canvas class="ecommerce-line-chart-s1" id="totalOrders"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="col-xxl-6 col-md-6">
                     <div class="card h-100">
