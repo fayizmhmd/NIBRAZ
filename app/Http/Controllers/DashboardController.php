@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 //use App\Models\Permission;
 
-use App\Models\Gallery;
 use App\Models\Project;
 use App\Models\Review;
 use App\Models\Subscription;
