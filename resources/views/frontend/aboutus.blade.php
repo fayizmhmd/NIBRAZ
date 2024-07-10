@@ -100,7 +100,7 @@
                             <!-- TITLE END -->
                             <div class="wt-team-six large-pic">
                                 <div class="wt-team-media wt-thum-bx">
-                                    <img src="{{ asset('assets/frontend/nib-images/04/Director-Nibraz.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/nib-images/new/Director-Nibraz.jpg') }}" alt="">
                                 </div>
                                 <div class="wt-team-info text-center p-lr10 p-tb20 bg-white">
                                     <h2 class="wt-team-title text-uppercase text-black font-32 font-weight-500">Salahudheen</h2>
@@ -279,7 +279,7 @@
                             <div id="tab1" class="tab-pane active show">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20 ">
-                                        <img src="{{ asset('assets/frontend/nib-images/06/ALIANCE-AUDITORIUM-THUVVUR.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/new/ALIANCE-AUDITORIUM-THUVVUR.jpg') }}" alt="">
 
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@
                             <div id="tab2" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/06/BASHEER-MASH-PMNA-.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/new/BASHEER-MASH-PMNA-.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +296,7 @@
                             <div id="tab3" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/06/CHANTHAPDI-MASJID-3.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/new/CHANTHAPDI-MASJID-3.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -304,7 +304,7 @@
                             <div id="tab4" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/06/CHUNGAM-ACP-WORK.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/new/CHUNGAM-ACP-WORK.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +312,7 @@
                             <div id="tab5" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/06/FAISAL-VENGOOR-2.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/new/FAISAL-VENGOOR-2.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -320,7 +320,7 @@
                             <div id="tab6" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/06/RUGMINI-CHECHI.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/new/RUGMINI-CHECHI.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -382,7 +382,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="wt-media our-story-pic">
-                            <img src="{{ asset('assets/frontend/nib-images/04/velliyarnew.png') }}" alt="" style="object-fit: cover">
+                            <img src="{{ asset('assets/frontend/nib-images/new/velliyarnew.png') }}" alt="" style="object-fit: cover">
 
                         </div>
                     </div>
