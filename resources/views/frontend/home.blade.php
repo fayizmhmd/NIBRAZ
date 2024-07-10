@@ -372,7 +372,7 @@
                                         <div class="item">
                                             <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/nib-images/04/City-Center-Chungam.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
+                                                    <img src="{{asset('assets/frontend/nib-images/new/City-Center-Chungam.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                         <div class="carousel-line">
                                                             <h2 class="font-28 font-weight-400 m-b10">City Center Chungam</h2>
@@ -386,7 +386,7 @@
                                         <div class="item">
                                             <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/nib-images/04/Darul-Hikam.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
+                                                    <img src="{{asset('assets/frontend/nib-images/new/Darul-Hikam.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                         <div class="carousel-line">
                                                             <h2 class="font-28 font-weight-400 m-b10">Darul Hikam</h2>
@@ -400,7 +400,7 @@
                                         <div class="item">
                                             <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/nib-images/04/Juma-Masjid-Melattur.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
+                                                    <img src="{{asset('assets/frontend/nib-images/new/Juma-Masjid-Melattur.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                         <div class="carousel-line">
                                                             <h2 class="font-28 font-weight-400 m-b10">Juma Masjid Melattur</h2>
@@ -414,7 +414,7 @@
                                         <div class="item">
                                             <div class="wt-box">
                                                 <div class="ow-img wt-carousel-block gradi-black">
-                                                    <img src="{{asset('assets/frontend/nib-images/04/MSTM.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
+                                                    <img src="{{asset('assets/frontend/nib-images/new/MSTM.jpg')}}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
                                                     <div class="p-a50 wt-carousel-info text-white">
                                                         <div class="carousel-line">
                                                             <h2 class="font-28 font-weight-400 m-b10">MSTM Arts and Science College</h2>
@@ -467,31 +467,31 @@
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                                <img src="{{asset('assets/frontend/nib-images/04/nibraz-first-slider.jpg')}}" alt="">
+                                                <img src="{{asset('assets/frontend/nib-images/new/nibraz-first-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                               <img src="{{asset('assets/frontend/nib-images/04/nibraz-fourth-slider.jpg')}}" alt="">
+                                               <img src="{{asset('assets/frontend/nib-images/new/nibraz-fourth-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="owl-img wt-img-effect zoom-slow">
-                                               <img src="{{asset('assets/frontend/nib-images/04/nibraz-second-slider.jpg')}}" alt="">
+                                               <img src="{{asset('assets/frontend/nib-images/new/nibraz-second-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                              <img src="{{asset('assets/frontend/nib-images/04/nibraz-third-slider.jpg')}}" alt="">
+                                              <img src="{{asset('assets/frontend/nib-images/new/nibraz-third-slider.jpg')}}" alt="">
                                             </div>
                                         </div>
 
                                         <div class="item">
                                             <div class="ow-img wt-img-effect zoom-slow">
-                                               <img src="{{asset('assets/frontend/nib-images/04/Resedential-client-name-Abdul-gafoor-area-3750sqft.jpg')}}" alt="">
+                                               <img src="{{asset('assets/frontend/nib-images/new/Resedential-client-name-Abdul-gafoor-area-3750sqft.jpg')}}" alt="">
                                             </div>
                                         </div>
                                    </div>
