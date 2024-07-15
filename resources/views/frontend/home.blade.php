@@ -10,9 +10,9 @@
                 <div id="rev_slider_346_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.3.3">
                     <ul>
                     	<!-- SLIDE 1 -->
-                        <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"{{ asset('assets/frontend/images/main-slider/slider3/slide1.jpg')}}","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
+                        <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"{{ asset('assets/frontend/images/main-slider/slider3/img3.jpg')}}","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
                     <!-- MAIN IMAGE -->
-                    <img src="{{ asset('assets/frontend/images/main-slider/slider3/slide1-b.jpg')}}" data-beforeafter="after"  data-bgcolor=''  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <img src="{{ asset('assets/frontend/images/main-slider/slider3/img4.jpg')}}" data-beforeafter="after"  data-bgcolor=''  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 text -->
@@ -39,7 +39,7 @@
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[50,50,50,50]"
 
-                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #000; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Modern</div>
+                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #000; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Updated</div>
                     <!-- LAYER NR. 2 text -->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                         id="slide-964-layer-2"
@@ -61,7 +61,7 @@
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[5,5,5,5]"
 
-                        style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #000; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A design isn't finished until someone is using it. </div>
+                        style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #000; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">A building isn't complete until it's being used. </div>
 
                     <!-- LAYER NR. 3  button-->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-4"
@@ -115,7 +115,7 @@
                         data-paddingleft="[50,50,50,50]"
 
 
-                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Modern </div>
+                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Updated </div>
 
                     <!-- LAYER NR. 2 text -->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
@@ -166,9 +166,9 @@
                     </li>
 
                     	<!-- SLIDE 1 -->
-                        <li data-index="rs-965" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"{{ asset('assets/frontend/images/main-slider/slider3/slide2.jpg')}}","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
+                        <li data-index="rs-965" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}" data-description="" data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"{{ asset('assets/frontend/images/main-slider/slider3/img2.jpg')}}","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
                     <!-- MAIN IMAGE -->
-                    <img src="{{asset('assets/frontend/images/main-slider/slider3/slide2-b.jpg')}}" data-beforeafter="after"  data-bgcolor=''  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <img src="{{asset('assets/frontend/images/main-slider/slider3/img1.jpg')}}" data-beforeafter="after"  data-bgcolor=''  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 text -->
@@ -195,7 +195,7 @@
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[50,50,50,50]"
 
-                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #000; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Modern</div>
+                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #000; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Updated</div>
                     <!-- LAYER NR. 2 text -->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
                         id="slide-965-layer-2"
@@ -271,7 +271,7 @@
                         data-paddingleft="[50,50,50,50]"
 
 
-                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Modern </div>
+                        style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">Updated </div>
 
                     <!-- LAYER NR. 2 text -->
                     <div class="tp-caption   tp-resizeme rs-parallaxlevel-5"
@@ -358,9 +358,9 @@
                                     <div class="text-uppercase text-black">
                                         <span class="font-30 font-weight-300 d-block m-b10">Who we are </span>
                                         <h2 class="font-40">
-                                            WE ARE A CREATIVE ARCHITECTURAL FIRM
+                                            Constructing with Precision, Building with Passion
                                         </h2>
-                                        <p>We are a creative architectural firm dedicated to crafting innovative and sustainable designs that inspire With a passion for excellence, we transform ideas into spaces that enhance lives and communities.
+                                        <p>Building structures that stand the test of time demands a comprehensive approach. At Nibraz Builders in Perinthalmanna, we combine advanced materials, durable design, regular upkeep, and sustainable practices. Learning from the past and using cutting-edge technology helps us create lasting architectural marvels.
                                         </p>
                                     </div>
                                 </div>
@@ -449,11 +449,11 @@
                     <div class="section-content">
                     	<div class="row">
                     		<div class="col-lg-5 col-md-12 m-b30 text-uppercase text-black">
-                            	<span class="font-30 font-weight-300 d-block m-b10">Welcome</span>
+                            	<span class="font-30 font-weight-300 d-block m-b10"></span>
                                 <h2 class="font-40">
-                                    We are creative Building  - Design  Company
+                                    BUILDING TIMELESS STRUCTURES WITH PRECISION
                                 </h2>
-                                <p> We blend aesthetics with functionality to deliver visionary building and design solutions</p>
+                                <p> We combine beauty and practicality to create innovative and reliable construction solutions for you.</p>
                                 <p class="text-lowercase">From concept to construction, we specialize in creating spaces that harmonize innovation, sustainability, and client vision.
                                 </p>
 
@@ -561,6 +561,147 @@
 
 
 
+             <!-- SERVICES SECTION -->
+             <div class="section-full bg-black p-t80 p-b50 square_shape1">
+                <div class="container">
+                    <!-- TITLE START -->
+                    <div class="section-head text-left text-white">
+                        <h2 class="text-uppercase font-36">Our Services</h2>
+                        <div class="wt-separator-outer">
+                            <div class="wt-separator bg-white"></div>
+                        </div>
+                    </div>
+                    <!-- TITLE END -->
+                    <div class="section-content circle-block-outer" data-bs-toggle="tab-hover">
+                        <div class="row nav nav-tab">
+
+                            <div class="col-lg-4 col-md-12 m-b30">
+
+                                <div class="nav-item">
+                                    <a class="nav-link active wt-icon-box-wraper right p-a20 text-white" href="#tab1" data-bs-toggle="tab">
+                                        <div class="icon-content">
+                                            <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Building Construction</h4>
+                                            <p style="text-align: justify !important;">Explore Nibraz Builders' expertise in creating durable, sustainable buildings with innovative designs. Each project, residential or commercial, showcases our commitment to lasting quality. See how we bring ideas to life.</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="nav-item">
+                                    <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab2" data-bs-toggle="tab">
+                                        <div class="icon-content">
+                                            <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Building Renovation</h4>
+                                            <p style="text-align: justify !important;">
+                                                Revitalize your space with Nibraz Builders' expert renovation services. We enhance functionality and aesthetics while preserving your vision. Trust us to transform your residential or commercial property with precision and care.</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="nav-item">
+                                    <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab3" data-bs-toggle="tab">
+                                        <div class="icon-content">
+                                            <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Flooring & Roofing</h4>
+                                            <p style="text-align: justify !important;">Nibraz Builders offers expert flooring and roofing solutions, combining durability with aesthetic appeal. Whether renovating or constructing, trust us for high-quality materials and meticulous craftsmanship to enhance your space.</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 m-b30">
+                                <div class="circle-content-pic tab-content ">
+
+                                    <div id="tab1" class="tab-pane active show">
+                                        <div class="wt-box">
+                                            <div class="wt-media text-primary m-b20 ">
+                                                <img src="{{ asset('assets/frontend/nib-images/serv/BuildingConstruction.jpg') }}" alt="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab2" class="tab-pane">
+                                        <div class="wt-box">
+                                            <div class="wt-media text-primary m-b20">
+                                                <img src="{{ asset('assets/frontend/nib-images/serv/BuildingRenovation.jpg') }}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab3" class="tab-pane">
+                                        <div class="wt-box">
+                                            <div class="wt-media text-primary m-b20">
+                                                <img src="{{ asset('assets/frontend/nib-images/serv/FlooringRoofing.jpg') }}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab4" class="tab-pane">
+                                        <div class="wt-box">
+                                            <div class="wt-media text-primary m-b20">
+                                                <img src="{{ asset('assets/frontend/nib-images/serv/BuildingMaintenance.jpg') }}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab5" class="tab-pane">
+                                        <div class="wt-box">
+                                            <div class="wt-media text-primary m-b20">
+                                                <img src="{{ asset('assets/frontend/nib-images/serv/ConcreteWorks.jpg') }}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab6" class="tab-pane">
+                                        <div class="wt-box">
+                                            <div class="wt-media text-primary m-b20">
+                                                <img src="{{ asset('assets/frontend/nib-images/serv/ProjectMgmt.jpg') }}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                 </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 m-b30">
+
+                                <div class="nav-item">
+                                    <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab4" data-bs-toggle="tab">
+                                        <div class="icon-content">
+                                            <h4 class="wt-tilte text-uppercase">Building Maintenance</h4>
+                                            <p style="text-align: justify !important;">Ensure your property remains pristine with Nibraz Builders' comprehensive maintenance services. From routine inspections to timely repairs, we safeguard structural integrity and enhance longevity, ensuring your building retains its value. </p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="nav-item">
+                                    <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab5" data-bs-toggle="tab">
+                                        <div class="icon-content">
+                                            <h4 class="wt-tilte text-uppercase">Concrete Works</h4>
+                                            <p style="text-align: justify !important;">Trust Nibraz Builders for expert concrete solutions. From foundations to structures, we ensure durability and precision. Our skilled team delivers quality concrete works, meeting project timelines and exceeding expectations.</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="nav-item">
+                                    <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab6" data-bs-toggle="tab">
+                                        <div class="icon-content">
+                                            <h4 class="wt-tilte text-uppercase">Project Management</h4>
+                                            <p style="text-align: justify !important;"> Trust Nibraz Builders for seamless project management services. From inception to completion, we oversee every detail with precision. Our expertise ensures on-time delivery and quality outcomes for your construction projects.</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
 
 
 
@@ -580,7 +721,7 @@
                                     <h2 class="font-50">
                                         Interesting Facts
                                     </h2>
-                                    <p class="font-18 font-weight-300">Nibraz Builders combines cutting-edge design with sustainable practices, crafting community-centric spaces that redefine modern living.
+                                    <p class="font-18 font-weight-300">YOUR TRUSTED BUILDER OF INNOVATIVE SPACES WITH SUSTAINABLE SOLUTIONS, CREATING COMMUNITY-CENTERED ENVIRONMENTS THAT ENHANCE MODERN LIVING.
                                     </p>
                                 </div>
                             </div>

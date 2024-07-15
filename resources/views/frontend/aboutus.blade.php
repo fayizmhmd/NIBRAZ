@@ -245,8 +245,8 @@
                         <div class="nav-item">
                             <a class="nav-link active wt-icon-box-wraper right p-a20 text-white" href="#tab1" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Master Plans</h4>
-                                    <p style="text-align: justify !important;">Master plans are strategic documents outlining development goals, integrating urban design, infrastructure, land use, and community needs to create cohesive, sustainable environments for future growth. </p>
+                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Building Construction</h4>
+                                    <p style="text-align: justify !important;">Explore Nibraz Builders' expertise in creating durable, sustainable buildings with innovative designs. Each project, residential or commercial, showcases our commitment to lasting quality. See how we bring ideas to life.</p>
                                 </div>
                             </a>
                         </div>
@@ -254,9 +254,9 @@
                         <div class="nav-item">
                             <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab2" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Architecture</h4>
+                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Building Renovation</h4>
                                     <p style="text-align: justify !important;">
-                                        Architecture encompasses the art and science of designing and constructing buildings and other physical structures, focusing on aesthetic, functional, and environmental considerations to create spaces that serve human needs and aspirations</p>
+                                        Revitalize your space with Nibraz Builders' expert renovation services. We enhance functionality and aesthetics while preserving your vision. Trust us to transform your residential or commercial property with precision and care.</p>
                                 </div>
                             </a>
                         </div>
@@ -265,8 +265,8 @@
                         <div class="nav-item">
                             <a class="nav-link wt-icon-box-wraper right p-a20 text-white" href="#tab3" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Landscaping</h4>
-                                    <p style="text-align: justify !important;">Landscaping involves the planning, design, and maintenance of outdoor spaces, including gardens, parks, and urban green areas. It focuses on enhancing the natural environment through the strategic placement of plants, trees, paths, and structures to create aesthetically pleasing and functional outdoor spaces.</p>
+                                    <h4 style="text-align: left !important;" class="wt-tilte text-uppercase">Flooring & Roofing</h4>
+                                    <p style="text-align: justify !important;">Nibraz Builders offers expert flooring and roofing solutions, combining durability with aesthetic appeal. Whether renovating or constructing, trust us for high-quality materials and meticulous craftsmanship to enhance your space.</p>
                                 </div>
                             </a>
                         </div>
@@ -279,7 +279,7 @@
                             <div id="tab1" class="tab-pane active show">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20 ">
-                                        <img src="{{ asset('assets/frontend/nib-images/new/ALIANCE-AUDITORIUM-THUVVUR.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/serv/BuildingConstruction.jpg') }}" alt="">
 
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@
                             <div id="tab2" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/new/BASHEER-MASH-PMNA-.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/serv/BuildingRenovation.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +296,7 @@
                             <div id="tab3" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/new/CHANTHAPDI-MASJID-3.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/serv/FlooringRoofing.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -304,7 +304,7 @@
                             <div id="tab4" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/new/CHUNGAM-ACP-WORK.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/serv/BuildingMaintenance.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +312,7 @@
                             <div id="tab5" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/new/FAISAL-VENGOOR-2.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/serv/ConcreteWorks.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -320,7 +320,7 @@
                             <div id="tab6" class="tab-pane">
                                 <div class="wt-box">
                                     <div class="wt-media text-primary m-b20">
-                                        <img src="{{ asset('assets/frontend/nib-images/new/RUGMINI-CHECHI.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/nib-images/serv/ProjectMgmt.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -333,8 +333,8 @@
                         <div class="nav-item">
                             <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab4" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 class="wt-tilte text-uppercase">Interior</h4>
-                                    <p style="text-align: justify !important;">Interior design enhances building interiors through furniture, color, lighting, and materials, creating functional and aesthetically pleasing spaces tailored to occupants' needs. </p>
+                                    <h4 class="wt-tilte text-uppercase">Building Maintenance</h4>
+                                    <p style="text-align: justify !important;">Ensure your property remains pristine with Nibraz Builders' comprehensive maintenance services. From routine inspections to timely repairs, we safeguard structural integrity and enhance longevity, ensuring your building retains its value. </p>
                                 </div>
                             </a>
                         </div>
@@ -342,8 +342,8 @@
                         <div class="nav-item">
                             <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab5" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 class="wt-tilte text-uppercase">Construction</h4>
-                                    <p style="text-align: justify !important;">Construction involves the process of building or assembling infrastructure and buildings, encompassing planning, design, financing, and execution, to create physical structures that meet specific functional and aesthetic requirements.</p>
+                                    <h4 class="wt-tilte text-uppercase">Concrete Works</h4>
+                                    <p style="text-align: justify !important;">Trust Nibraz Builders for expert concrete solutions. From foundations to structures, we ensure durability and precision. Our skilled team delivers quality concrete works, meeting project timelines and exceeding expectations.</p>
                                 </div>
                             </a>
                         </div>
@@ -351,8 +351,8 @@
                         <div class="nav-item">
                             <a class="nav-link wt-icon-box-wraper left p-a20 text-white" href="#tab6" data-bs-toggle="tab">
                                 <div class="icon-content">
-                                    <h4 class="wt-tilte text-uppercase">Urban Designs</h4>
-                                    <p style="text-align: justify !important;"> Urban design plans and shapes cities to create functional, attractive, and sustainable environments, integrating architecture, infrastructure, public spaces, and transportation to enhance quality of life and promote economic and social well-being.</p>
+                                    <h4 class="wt-tilte text-uppercase">Project Management</h4>
+                                    <p style="text-align: justify !important;"> Trust Nibraz Builders for seamless project management services. From inception to completion, we oversee every detail with precision. Our expertise ensures on-time delivery and quality outcomes for your construction projects.</p>
                                 </div>
                             </a>
                         </div>
