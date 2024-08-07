@@ -14,7 +14,7 @@
                     <span class="copyrights-text">© 2024 NIBRAZ BUILDERS LLC.Designed By HowinCLOUD.</span>
                 </div> --}}
 
-                <div class="nk-footer-copyright"> © 2024 NIBRAZ BUILDERS LLC. Powered By
+                <div class="nk-footer-copyright"> © 2024 NIBRAZ BUILDERS LLP. Powered By
                     <a href="https://howincloud.com" target="_blank" class="text-dark text-hover-dark me-2"
                         style="  font-weight: 700">Howin<span style="color: red;  font-weight: 700">Cloud</span>
                     </a>

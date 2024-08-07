@@ -26,6 +26,19 @@
                 <textarea class="form-control" name="editordata" id="summernote" cols="30" rows="10"></textarea>
             </div>
         </div>
+
+
+        <div class='form-group row mb-4 align-middle'>
+            <label class="col-lg-3 form-label">Is Project Notable?</label>
+            <div class="col-lg-9">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="isNotable" name="is_notable">
+                    <label class="form-check-label" for="isNotable">Yes</label>
+                </div>
+            </div>
+        </div>
+
+
         <div class='form-group row mb-4 align-middle'>
             <label class=" col-lg-3 required form-label">Image</label>
             <div class="col-lg-9">
