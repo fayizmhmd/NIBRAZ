@@ -6,13 +6,13 @@
 <div class="page-content">
 
     <!-- INNER PAGE BANNER -->
-    <div class="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style="background-image:url({{ asset('assets/frontend/images/banner/3.jpg') }});">
+    <div class="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style="background-image:url({{ asset('assets/frontend/images/new-img/construction.jpg') }});">
         <div class="overlay-main bg-black opacity-07"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
                 <div class="banner-title-outer">
                     <div class="banner-title-name">
-                        <h2 class="text-white text-uppercase letter-spacing-5 font-18 font-weight-300">Fusing logic with imagination and truth with discovery.</h2>
+                        <h2 class="text-white text-uppercase letter-spacing-5 font-18 font-weight-300">Combining innovation with expertise and vision with reality in every project.</h2>
                     </div>
                 </div>
                 <!-- BREADCRUMB ROW -->
@@ -67,12 +67,12 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 m-b30">
                         <div class="m-about-containt text-uppercase text-black p-t30">
                             <span class="font-30 font-weight-300">About Us</span>
-                            <h2 class="font-40">Our mission is the best interior design & development.</h2>
-                            <p><b>Innovating the Future of Interior Design & Development through pioneering concepts, cutting-edge techniques, and setting new industry standards</b></p>
-                            <p style="text-transform: capitalize;" class="">NIBRAZ BUILDERS LLC is an architectural firm dedicated to setting the highest standards in interior design and development. Our mission is to transform spaces with unmatched creativity and precision, ensuring each project reflects our commitment to excellence and innovation. By pioneering new design concepts and utilizing cutting-edge techniques, we aim to redefine the industry and exceed our clients' expectations.
+                            <h2 class="font-40">Our mission is to deliver the best in construction and development.</h2>
+                            <p><b>Innovating the future of construction and development through pioneering concepts, advanced techniques, and setting new industry standards.</b></p>
+                            <p style="text-transform: capitalize;" class="">NIBRAZ BUILDERS LLC is a construction firm dedicated to setting the highest standards in construction and development. Our mission is to build exceptional structures with unmatched quality and precision, ensuring each project reflects our commitment to excellence and innovation. By pioneering new construction methods and utilizing advanced techniques, we aim to redefine the industry and exceed our clients' expectations.
                             </p>
                             <p style="text-transform: capitalize;">
-                                Our team of experienced architects and designers collaborates closely with clients to understand their unique vision and requirements. We believe in the power of thoughtful design to enhance the way people live, work, and interact within a space. Every project we undertake is a testament to our passion for creating functional, aesthetically pleasing environments that inspire and elevate the human experience.
+                                Our team of experienced builders and engineers works closely with clients to understand their unique vision and requirements. We believe in the power of thoughtful construction to enhance the way people live, work, and interact within a space. Every project we undertake is a testament to our passion for creating functional, high-quality structures that inspire and elevate the human experience.
                             </p>
 
                         </div>
@@ -92,7 +92,7 @@
                         <div class="wt-left-part2 m-experts p-tb90">
                             <!-- TITLE START -->
                             <div class="section-head text-left text-black">
-                                <h2 class="text-uppercase font-36">Our experts</h2>
+                                <h2 class="text-uppercase font-36">Team</h2>
                                 <div class="wt-separator-outer">
                                     <div class="wt-separator bg-black"></div>
                                 </div>
