@@ -255,12 +255,9 @@
                                 <div class="text-uppercase text-black">
                                     <span class="font-30 font-weight-300 d-block m-b10">Who we are </span>
                                     <h2 class="font-40">
-                                        Constructing with Precision, Building with Passion
+                                        Precision and Excellence in Tall Building Construction
                                     </h2>
-                                    <p>Building structures that stand the test of time demands a comprehensive approach. At
-                                        Nibraz Builders in Perinthalmanna, we combine advanced materials, durable design,
-                                        regular upkeep, and sustainable practices. Learning from the past and using
-                                        cutting-edge technology helps us create lasting architectural marvels.
+                                    <p>We focus on designing and building outstanding multi-story commercial buildings that are both stylish and practical. We use the latest engineering methods and top-quality materials to make sure our buildings are top-notch. Our dedication to detail and creativity helps us create buildings that become lasting landmarks in the city.
                                     </p>
                                 </div>
                             </div>
