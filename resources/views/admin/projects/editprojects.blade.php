@@ -3,8 +3,9 @@
     Colleges
 @endsection
 @section('content')
-<form action="{{ route('admin.updateProjects', $projects->id) }}" method="POST" id="myForm" enctype="multipart/form-data">
-    @csrf
+    <form action="{{ route('admin.updateProjects', $projects->id) }}" method="POST" id="myForm"
+        enctype="multipart/form-data">
+        @csrf
         <div class='form-group row mb-4 align-middle'>
             <label class=" col-lg-3 required form-label">Name</label>
             <div class="col-lg-9">
@@ -15,8 +16,8 @@
         <div class='form-group row mb-4 align-middle'>
             <label class=" col-lg-3 required form-label">SEO</label>
             <div class="col-lg-9">
-                <input type="text" class="form-control" value="{{ $projects->seo }}" placeholder="Duration...!" name='seo'
-                    required />
+                <input type="text" class="form-control" value="{{ $projects->seo }}" placeholder="Duration...!"
+                    name='seo' required />
             </div>
         </div>
 
@@ -26,6 +27,21 @@
                 <textarea class="form-control" name="editordata" id="summernote" cols="30" rows="10">{{ $projects->description }}</textarea>
             </div>
         </div>
+
+
+
+        <div class='form-group row mb-4 align-middle'>
+            <label class="col-lg-3 form-label">Is Project Notable?</label>
+            <div class="col-lg-9">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="isNotable" name="is_notable"
+                        {{ $projects->is_notable ? 'checked' : '' }}>
+                    <label class="form-check-label" for="isNotable">Yes</label>
+                </div>
+            </div>
+        </div>
+
+
         <div class='form-group row mb-4 align-middle'>
             <label class="col-lg-3 required form-label">Image</label>
             <div class="col-lg-9">
@@ -46,10 +62,10 @@
             </div>
         </div>
 
-    </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Update</button>
-    </div>
-</form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+    </form>
 @endsection
