@@ -18,13 +18,14 @@ class FrontEndController extends Controller
         $reviews = Review::all();
         $projects =  Project::where('is_active', 1)->get();
         $logos = ClientLogo::all();
-        return view('frontend.home', compact('reviews','projects','logos'));
+        return view('frontend.home', compact('reviews', 'projects', 'logos'));
     }
 
 
-    public function Gallery(){
+    public function Gallery()
+    {
         $galleries =  Gallery::where('is_active', 1)->get();
-        return view('frontend.gallery',compact('galleries'));
+        return view('frontend.gallery', compact('galleries'));
     }
 
     public function AboutUs()
@@ -40,10 +41,10 @@ class FrontEndController extends Controller
 
     public function Project()
     {
-        $projects = Project::where('is_active', 1)->get();
-        return view('frontend.project',compact('projects'));
+        // Fetch notable and non-notable projects
+        $notableProjects = Project::where('is_active', 1)->where('is_notable', 1)->get();
+        $regularProjects = Project::where('is_active', 1)->where('is_notable', 0)->get();
+
+        return view('frontend.project', compact('notableProjects', 'regularProjects'));
     }
-
-
-
 }
