@@ -39,7 +39,7 @@
                     {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                         data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[5,5,5,5]"
-                        style="z-index: 3; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #fff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">
+                        style="z-index: 3; min-width: 960px; max-width: 960px; white-space: normal; font-size: 18px; line-height: 20px; font-weight: 400; color: #fff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">
                      Your Trusted Partner in Construction, Delivering Excellence Every Step of the Way
                     </div>
                 
@@ -55,7 +55,7 @@
                         data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                         data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[45,45,45,45]"
-                        style="z-index: 4; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #fff; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(0,0,0);">
+                        style="z-index: 4; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color:rgb(0,0,0) ; letter-spacing: 5px;font-family:Montserrat;background-color:#fff;">
                         <a href="{{ asset('contact') }}">CONTACT US</a>
                     </div>
                 
@@ -72,7 +72,7 @@
                     data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[50,50,50,50]"
                     style="z-index: 5; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 400; 
-                           color: #ffffff; font-family: Montserrat; text-transform: uppercase; letter-spacing: 5px;">
+                           color: #B8860B; font-family: Montserrat; text-transform: uppercase; letter-spacing: 5px;">
                     Building Beyond Limits
                 </div>
                 

@@ -33,15 +33,12 @@
 
 
 <!-- LOADING AREA START ===== -->
-<div style="margin: 0; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #f0f0f0;">
+<div >
     <div class="loading-area" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <div class="loading-box" style="/* Add styles for your loading-box if needed */"></div>
         <div class="loading-pic" style="height: 200px; width: 200px; display: flex; justify-content: center; align-items: center;">
             <img src="{{ asset('assets/frontend/images/new-img/NIBRAZ ONLY (B).png') }}" alt="Loading Image" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-            <!-- Uncomment and adjust if you want to use the SVG -->
-            <!-- <svg id="triangle" width="70px" height="70px" viewBox="-3 -4 39 39" style="width: 70px; height: 70px;">
-                <polygon fill="#fff" stroke="#000" stroke-width="2" points="16,0 32,32 0,32"></polygon>
-            </svg> -->
+          
         </div>
     </div>
 </div>
