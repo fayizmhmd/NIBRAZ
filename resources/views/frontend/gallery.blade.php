@@ -87,7 +87,7 @@
 <div class="loading-area">
     <div class="loading-box"></div>
     <div class="loading-pic">
-        <img   src ={{asset('assets/frontend/images/new-img/nibraaaz.png')}}/>
+        <img   src ={{asset('assets/images/NIBRAZ ONLY (B).png')}}/>
 
 
     </div>

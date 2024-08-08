@@ -56,11 +56,11 @@
                                     </div>
                                 </div>
 
-                                <div class="item">
+                                {{-- <div class="item">
                                     <div class="ow-img wt-img-effect zoom-slow">
                                         <a href="javascript:void(0);"><img src="{{ asset('assets/frontend/nib-images/new/Untitled design (1).jpg') }}" alt=""></a>
                                     </div>
-                                </div>
+                                </div> --}}
                            </div>
                        </div>
                     </div>

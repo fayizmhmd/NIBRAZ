@@ -387,12 +387,12 @@
                                         </div>
                                     </div>
 
-                                    <div class="item">
+                                    {{-- <div class="item">
                                         <div class="owl-img wt-img-effect zoom-slow">
                                             <img src="{{ asset('assets/frontend/nib-images/new/nibraz-second-slider.jpg') }}"
                                                 alt="">
                                         </div>
-                                    </div>
+                                    </div> --}}
 
                                     <div class="item">
                                         <div class="ow-img wt-img-effect zoom-slow">
