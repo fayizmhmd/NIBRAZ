@@ -5,117 +5,110 @@
     <div class="page-content">
 
         <!-- SLIDER START -->
-        <div id="rev_slider_346_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="beforeafterslider1"
+        <div id="rev_slider_346_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias=""
             data-source="gallery" style="background:#252525;padding:0px;">
             <!-- START REVOLUTION SLIDER 5.4.3.3 fullscreen mode -->
             <div id="rev_slider_346_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.3.3">
                 <ul>
                     <!-- SLIDE 1 -->
                     <li data-index="rs-964" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
-                        data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1=""
-                        data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
-                        data-param8="" data-param9=""
-                        data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}"
-                        data-description=""
-                        data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"{{ asset('assets/frontend/images/main-slider/slider3/img3.jpg') }}","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
-                        <!-- MAIN IMAGE -->
-                        <img src="{{ asset('assets/frontend/images/main-slider/slider3/img4.jpg') }}"
-                            data-beforeafter="after" data-bgcolor='' alt="" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
-                            data-no-retina>
-                        <!-- LAYERS -->
+                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
+                    data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1=""
+                    data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
+                    data-param8="" data-param9=""
+                    data-param10="{&quot;revslider-weather-addon&quot; : { &quot;type&quot; : &quot;&quot; ,&quot;name&quot; : &quot;&quot; ,&quot;woeid&quot; : &quot;&quot; ,&quot;unit&quot; : &quot;&quot; }}"
+                    data-description=""
+                    data-beforeafter='{"moveto":"50%|50%|50%|50%","bgColor":"#e7e7e7","bgType":"image","bgImage":"{{ asset('assets/frontend/images/main-slider/slider3/construction-site-and-supervisors.png') }}","bgFit":"cover","bgPos":"center center","bgRepeat":"no-repeat","direction":"horizontal","easing":"Power2.easeInOut","delay":"500","time":"750","out":"fade","carousel":false}'>
+                    
+                    <!-- Black Overlay -->
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+                    
+                    <!-- MAIN IMAGE -->
+                    <img src="{{ asset('assets/frontend/images/main-slider/slider3/construction-site-and-supervisors.png') }}"
+                        data-beforeafter="after" data-bgcolor='' alt="" data-bgposition="center center"
+                        data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
+                        data-no-retina style="z-index: 2;">
+                    
+                    <!-- LAYERS -->
+                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-964-layer-2"
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                        data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','100']"
+                        data-width="['960','960','960','320']" data-height="none" data-whitespace="normal"
+                        data-type="text" data-beforeafter="before" data-responsive_offset="on"
+                        data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
+                    {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                        data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[5,5,5,5]"
+                        style="z-index: 3; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #fff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">
+                     Your Trusted Partner in Construction, Delivering Excellence Every Step of the Way
+                    </div>
+                
+                    <!-- LAYER NR. 3  button-->
+                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-964-layer-3"
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
+                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                        data-beforeafter="before" data-responsive_offset="on"
+                        data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
+                    {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},
+                    {"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
+                        data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[45,45,45,45]"
+                        style="z-index: 4; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #fff; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(0,0,0);">
+                        <a href="{{ asset('contact') }}">CONTACT US</a>
+                    </div>
+                
+                    <!-- SLIDE RIGHT PART START-->
+                    <div class="tp-caption tp-resizeme tp-blackshadow rs-parallaxlevel-5" id="slide-964-layer-4"
+                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                    data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
+                    data-fontsize="['50','50','50','30']" data-lineheight="['50','50','50','30']"
+                    data-letterspacing="['5','5','5','2']" data-width="none" data-height="none"
+                    data-whitespace="nowrap" data-type="text" data-beforeafter="after"
+                    data-responsive_offset="on"
+                    data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
+                    {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                    data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[50,50,50,50]"
+                    style="z-index: 5; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 400; 
+                           color: #ffffff; font-family: Montserrat; text-transform: uppercase; letter-spacing: 5px;">
+                    Building Beyond Limits
+                </div>
+                
 
-                        <!-- LAYER NR. 1 text -->
-                        <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-964-layer-1"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
-                            data-fontsize="['120','120','120','60']" data-lineheight="['120','120','120','60']"
-                            data-letterspacing="['50','50','50','30']" data-height="none" data-whitespace="normal"
-                            data-type="text" data-beforeafter="before" data-responsive_offset="on"
-                            data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
-                        {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[50,50,50,50]"
-                            style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #000; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">
-                            Updated</div>
-                        <!-- LAYER NR. 2 text -->
-                        <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-964-layer-2"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','100']"
-                            data-width="['960','960','960','320']" data-height="none" data-whitespace="normal"
-                            data-type="text" data-beforeafter="before" data-responsive_offset="on"
-                            data-frames='[{"delay":600,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
-                        {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[5,5,5,5]"
-                            style="z-index: 11; min-width: 960px; max-width: 960px; white-space: normal; font-size: 13px; line-height: 20px; font-weight: 400; color: #000; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">
-                            A building isn't complete until it's being used. </div>
-
-                        <!-- LAYER NR. 3  button-->
-                        <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-964-layer-3"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-beforeafter="before" data-responsive_offset="on"
-                            data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
-                        {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},
-                        {"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[45,45,45,45]"
-                            style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #fff; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(0,0,0);">
-                            <a href="{{ asset('contact') }}">CONTACT US</a>
-                        </div>
-
-                        <!-- SLIDE RIGHT PART START-->
-
-                        <!-- LAYER NR. 1  text-->
-                        <div class="tp-caption   tp-resizeme  tp-blackshadow rs-parallaxlevel-5" id="slide-964-layer-4"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','0']"
-                            data-fontsize="['120','120','120','60']" data-lineheight="['120','120','120','60']"
-                            data-letterspacing="['50','50','50','30']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-beforeafter="after"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
-                        {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[50,50,50,50]"
-                            style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">
-                            Updated </div>
-
-                        <!-- LAYER NR. 2 text -->
-                        <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-964-layer-5"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','100']"
-                            data-width="['960','960','960','320']" data-height="none" data-whitespace="normal"
-                            data-type="text" data-beforeafter="after" data-responsive_offset="on"
-                            data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
-                        {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[5,5,5,5]"
-                            style="z-index: 17; min-width: 960px; max-width: 960px; white-space: normal; font-size: 16px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">
-                            A design isn't finished until someone is using it. </div>
-
-                        <!-- LAYER NR. 3  button-->
-                        <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-964-layer-6"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-beforeafter="after" data-responsive_offset="on"
-                            data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
-                        {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},
-                        {"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[45,45,45,45]"
-                            style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #000; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(255,255,255);">
-                            <a href="{{ asset('contact') }}">CONTACT US</a></div>
-                    </li>
+                
+                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-964-layer-5"
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                        data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','100']"
+                        data-width="['960','960','960','320']" data-height="none" data-whitespace="normal"
+                        data-type="text" data-beforeafter="after" data-responsive_offset="on"
+                        data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
+                    {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                        data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[5,5,5,5]"
+                        style="z-index: 6;  white-space: normal; font-size: 16px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 5px;font-family:Montserrat;text-transform:uppercase;">
+                    </div>
+                
+                    <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-964-layer-6"
+                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                        data-y="['bottom','bottom','bottom','bottom']" data-voffset="['70','70','70','80']"
+                        data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                        data-beforeafter="after" data-responsive_offset="on"
+                        data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},
+                    {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},
+                    {"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
+                        data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                        data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[45,45,45,45]"
+                        style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #000; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(255,255,255);">
+                        <a href="{{ asset('contact') }}">CONTACT US</a>
+                    </div>
+                </li>
+                
 
                     <!-- SLIDE 1 -->
-                    <li data-index="rs-965" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                    {{-- <li data-index="rs-965" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                         data-hideslideonmobile="off" data-easein="default" data-easeout="default"
                         data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off"
                         data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
@@ -186,7 +179,7 @@
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[50,50,50,50]"
                             style="z-index: 16; white-space: nowrap; font-size: 120px; line-height: 120px; font-weight: 400; color: #ffffff; letter-spacing: 50px;font-family:Montserrat;text-transform:uppercase;">
-                            Updated </div>
+                              Constructing Excellence</div>
 
                         <!-- LAYER NR. 2 text -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-965-layer-5"
@@ -215,7 +208,7 @@
                             data-paddingleft="[45,45,45,45]"
                             style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 60px; font-weight: 700; color: #000; letter-spacing: 5px;font-family:Montserrat;background-color:rgb(255,255,255);">
                             <a href="{{ asset('contact') }}">CONTACT US</a></div>
-                    </li>
+                    </li> --}}
 
                 </ul>
                 <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>

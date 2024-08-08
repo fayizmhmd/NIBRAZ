@@ -36,9 +36,11 @@
 <div class="loading-area">
 <div class="loading-box"></div>
 <div class="loading-pic">
-<svg id="triangle" width="140px" height="140px" viewBox="-3 -4 39 39">
+    <img src="{{ asset('assets/frontend/images/new-img/nibraaaz.png') }}" alt="Loading Image">
+
+{{-- <svg id="triangle" width="140px" height="140px" viewBox="-3 -4 39 39">
   <polygon fill="#fff" stroke="#000" stroke-width="2" points="16,0 32,32 0,32"></polygon>
-</svg>
+</svg> --}}
 </div>
 </div>
 <!-- LOADING AREA  END ====== -->
