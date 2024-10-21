@@ -16,7 +16,7 @@ class FrontEndController extends Controller
     public function home()
     {
         $reviews = Review::all();
-        $projects =  Project::where('is_active', 1)->get();
+        $projects =  Project::where('is_active', 1)->where('is_notable', '1')->get();
         $logos = ClientLogo::all();
         return view('frontend.home', compact('reviews', 'projects', 'logos'));
     }
